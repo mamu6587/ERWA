@@ -16,7 +16,7 @@ private int level;
 
         public Adventurer(){
         }
-
+/*
         public Adventurer(@JsonProperty("name") String name,
                           @JsonProperty("charclass")String charclass,
                           @JsonProperty("race")String race,
@@ -26,7 +26,7 @@ private int level;
                 this.charclass = charclass;
                 this.race = race;
                 this.level = lvl;
-        }
+        }*/
 
         @Id
         @GeneratedValue(strategy = GenerationType.AUTO)
@@ -61,7 +61,7 @@ private int level;
         public void setRace(String race) {
                 this.race = race;
         }
-        @Column(name = "level", nullable = false)
+        @Column(name = "lvl", nullable = false)
         public int getLvl() {
                 return level;
         }

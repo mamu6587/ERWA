@@ -1,5 +1,6 @@
 package com.erwa.servor.services;
 
+import com.erwa.servor.dao.AdventurerDAO;
 import com.erwa.servor.dao.CharacterDAO;
 import com.erwa.servor.model.Adventurer;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,30 +14,31 @@ import java.util.UUID;
 @Service
 public class AdventurerService {
 
-    private final CharacterDAO characterDAO;
+    @Autowired
+    private final AdventurerDAO characterDAO;
 
     @Autowired
-    public AdventurerService(@Qualifier("fakeDAO") CharacterDAO characterDAO){
+    public AdventurerService(@Qualifier("AdventurerDAO") AdventurerDAO characterDAO){
         this.characterDAO = characterDAO;
     }
 
-    public int addAdventurer(Adventurer adventurer){
-        return characterDAO.insertPerson(adventurer);
+    public Adventurer addAdventurer(Adventurer adventurer){
+        return characterDAO.save(adventurer);
     }
 
     public List<Adventurer> getAllAdventurers(){
-        return characterDAO.selectAllAdventurers();
+        return characterDAO.findAll();
     }
 
     public Optional<Adventurer> getAdventurerById(UUID id){
-        return characterDAO.selectAdventurerById(id);
+        return Optional.of(characterDAO.getOne(id));
     }
 
-    public int deleteAdventurerById(UUID id){
-        return characterDAO.deleteAdventurerById(id);
+    public void deleteAdventurerById(UUID id){
+        characterDAO.deleteById(id);
     }
 
-    public int updateAdventurerById(UUID id, Adventurer newAdventurer){
-        return characterDAO.updateAdventurerById(id, newAdventurer);
+    public void updateAdventurerById(UUID id, Adventurer newAdventurer){
+        characterDAO.save(newAdventurer);
     }
 }

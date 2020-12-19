@@ -28,7 +28,7 @@ public class CharacterController<list> {
         adventurerService.addAdventurer(adventurer);
     }
 
-    @GetMapping
+    @GetMapping(path = "/all")
     public List<Adventurer> getAllAdventurers(){
         return this.adventurerService.getAllAdventurers();
     }
@@ -40,8 +40,8 @@ public class CharacterController<list> {
     }
 
     @DeleteMapping(path = "{id}")
-    public int deleteAdventurerById(@PathVariable("id") UUID id){
-        return adventurerService.deleteAdventurerById(id);
+    public void deleteAdventurerById(@PathVariable("id") UUID id){
+        adventurerService.deleteAdventurerById(id);
 
     }
 
