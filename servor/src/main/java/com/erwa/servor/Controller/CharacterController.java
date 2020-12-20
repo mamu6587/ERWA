@@ -19,35 +19,36 @@ public class CharacterController<list> {
     private final AdventurerService adventurerService;
 
     @Autowired
-    public CharacterController(AdventurerService adventurerService){
+    public CharacterController(AdventurerService adventurerService) {
         this.adventurerService = adventurerService;
     }
 
     @PostMapping
-    public void addAdventurer(@RequestBody Adventurer adventurer){
+    public void addAdventurer(@RequestBody Adventurer adventurer) {
         adventurerService.addAdventurer(adventurer);
     }
 
     @GetMapping(path = "/all")
-    public List<Adventurer> getAllAdventurers(){
+    public List<Adventurer> getAllAdventurers() {
+
         return this.adventurerService.getAllAdventurers();
     }
 
     @GetMapping(path = "{id}")
-    public Adventurer getAdventurerById(@PathVariable("id") UUID id){
+    public Adventurer getAdventurerById(@PathVariable("id") UUID id) {
         return adventurerService.getAdventurerById(id)
                 .orElse(null);
     }
 
     @DeleteMapping(path = "{id}")
-    public void deleteAdventurerById(@PathVariable("id") UUID id){
+    public void deleteAdventurerById(@PathVariable("id") UUID id) {
         adventurerService.deleteAdventurerById(id);
 
     }
 
     @PutMapping(path = "{id}")
-    public void updateAdventurerById(@PathVariable("id") UUID id,@RequestBody Adventurer adventurer){
-        adventurerService.updateAdventurerById(id,adventurer);
+    public void updateAdventurerById(@PathVariable("id") UUID id, @RequestBody Adventurer adventurer) {
+        adventurerService.updateAdventurerById(id, adventurer);
     }
 /*
     @GetMapping("/characters")
