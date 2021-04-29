@@ -28,7 +28,7 @@ public class Adventurer {
         this.level = lvl;
     }
 
-    @Id
+        @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     public UUID getId() {
         return id;

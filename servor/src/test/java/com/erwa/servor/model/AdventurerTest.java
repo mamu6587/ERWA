@@ -1,12 +1,9 @@
 package com.erwa.servor.model;
 
-import com.erwa.servor.Controller.CharacterController;
 import com.erwa.servor.ServorApplication;
 import com.erwa.servor.dao.AdventurerDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.context.annotation.Bean;
-import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
 import org.testng.annotations.Test;
 
@@ -16,8 +13,7 @@ public class AdventurerTest extends AbstractTestNGSpringContextTests {
 
 
     @Autowired
-    AdventurerDAO adventurerDAO;
-
+    AdventurerDAO AdventurerDAO;
 
 
 
@@ -25,17 +21,23 @@ public class AdventurerTest extends AbstractTestNGSpringContextTests {
     public void testCreateAdventurer() {
         Adventurer adventurer = new Adventurer("Name", "Charclass", "Race", 0);
 
-        adventurerDAO.save(adventurer);
+        AdventurerDAO.save(adventurer);
 
     }
 
     @Test
     void testDisplayAdventurer() {
-        System.out.println(adventurerDAO.findAll());
+        System.out.println(AdventurerDAO.findAll());
     }
 
     @Test
     void testSecondaryStatsAdventurer() {
 
+    }
+
+    @Test
+    public void testPrintAdventurer(){
+        Adventurer adventurer = new Adventurer("Name", "Charclass", "Race", 0);
+        adventurer.toString();
     }
 }

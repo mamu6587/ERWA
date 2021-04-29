@@ -1,54 +1,50 @@
 package com.erwa.servor.Controller;
 
-import com.erwa.servor.dao.CharacterDAO;
 import com.erwa.servor.model.Adventurer;
 import com.erwa.servor.services.AdventurerService;
-import com.fasterxml.jackson.annotation.JsonProperty;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import javax.persistence.PostUpdate;
 import java.util.List;
 import java.util.UUID;
 
-@RequestMapping("api/v1/person")
-@RestController
+//@RequestMapping("api/v1/person")
+//@RestController
 public class CharacterController<list> {
 
-    private final AdventurerService adventurerService;
+    private final AdventurerService Service;
 
     @Autowired
-    public CharacterController(AdventurerService adventurerService) {
-        this.adventurerService = adventurerService;
+    public CharacterController(AdventurerService Service) {
+        this.Service = Service;
     }
 
     @PostMapping
     public void addAdventurer(@RequestBody Adventurer adventurer) {
-        adventurerService.addAdventurer(adventurer);
+        Service.addAdventurer(adventurer);
     }
 
     @GetMapping(path = "/all")
     public List<Adventurer> getAllAdventurers() {
 
-        return this.adventurerService.getAllAdventurers();
+        return this.Service.getAllAdventurers();
     }
 
     @GetMapping(path = "{id}")
     public Adventurer getAdventurerById(@PathVariable("id") UUID id) {
-        return adventurerService.getAdventurerById(id)
+        return Service.getAdventurerById(id)
                 .orElse(null);
     }
 
     @DeleteMapping(path = "{id}")
     public void deleteAdventurerById(@PathVariable("id") UUID id) {
-        adventurerService.deleteAdventurerById(id);
+        Service.deleteAdventurerById(id);
 
     }
 
     @PutMapping(path = "{id}")
     public void updateAdventurerById(@PathVariable("id") UUID id, @RequestBody Adventurer adventurer) {
-        adventurerService.updateAdventurerById(id, adventurer);
+        Service.updateAdventurerById(id, adventurer);
     }
 /*
     @GetMapping("/characters")

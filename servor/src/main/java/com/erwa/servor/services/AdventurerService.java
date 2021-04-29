@@ -1,7 +1,6 @@
 package com.erwa.servor.services;
 
 import com.erwa.servor.dao.AdventurerDAO;
-import com.erwa.servor.dao.CharacterDAO;
 import com.erwa.servor.model.Adventurer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
