@@ -27,6 +27,7 @@ dependencies {
 	runtimeOnly 'com.microsoft.sqlserver:mssql-jdbc'
 	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	compile 'net.sourceforge.htmlunit:htmlunit:2.49.1'
 }
 
 test {

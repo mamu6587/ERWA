@@ -1,0 +1,476 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <base href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/goblin/">
+        <!-- link rel="search" type="application/opensearchdescription+xml" title="d20PFSRD" href="https://www.d20pfsrd.com/wp-content/themes/srdtheme/opensearch.php" /-->
+    <title>Goblin &#8211; d20PFSRD</title>
+<link rel='dns-prefetch' href='//www.d20pfsrd.com' />
+<link rel='dns-prefetch' href='//account.opengamingnetwork.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="d20PFSRD &raquo; Feed" href="https://www.d20pfsrd.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="d20PFSRD &raquo; Comments Feed" href="https://www.d20pfsrd.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.d20pfsrd.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=19f6eb017ff9852d9392778684738341"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='ogncustom-css-css'  href='https://www.d20pfsrd.com/wp-content/plugins/ogncustom/css/ogncustom.css?ver=1617398234' type='text/css' media='all' />
+<link rel='stylesheet' id='toc-screen-css'  href='https://www.d20pfsrd.com/wp-content/plugins/table-of-contents-plus/screen.min.css?ver=2002' type='text/css' media='all' />
+<link rel='stylesheet' id='quickstrap-css'  href='https://www.d20pfsrd.com/wp-content/themes/quickstrap/style.css?ver=19f6eb017ff9852d9392778684738341' type='text/css' media='all' />
+<link rel='stylesheet' id='child-style-css'  href='https://www.d20pfsrd.com/wp-content/themes/srdtheme/css/style.css?ver=1.10.0' type='text/css' media='all' />
+<link rel='stylesheet' id='quickstrap-bootstrap-css'  href='https://www.d20pfsrd.com/wp-content/themes/quickstrap/css/bootstrap.min.css?ver=3.3.6' type='text/css' media='all' />
+<link rel='stylesheet' id='child-dynamic-css'  href='https://www.d20pfsrd.com/wp-content/themes/srdtheme/css/sites/12.css?ver=1569421645' type='text/css' media='all' />
+<link rel='stylesheet' id='excel-bootstrap-table-css-css'  href='https://www.d20pfsrd.com/wp-content/themes/srdtheme/css/excel-bootstrap-table-filter-style.min.css?ver=1612122449' type='text/css' media='all' />
+<link rel='stylesheet' id='quickstrap-fontawesome-css'  href='https://www.d20pfsrd.com/wp-content/themes/quickstrap/font-awesome/css/font-awesome.min.css?ver=4.5.0' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.d20pfsrd.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://www.d20pfsrd.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://www.d20pfsrd.com/wp-content/themes/srdtheme/js/srdtheme.js?ver=1612122449'></script>
+<script type='text/javascript' src='https://www.d20pfsrd.com/wp-content/themes/quickstrap/js/bootstrap.min.js?ver=3.3.6'></script>
+<script type='text/javascript' src='//account.opengamingnetwork.com/js/ognbar.min.js?ver=19f6eb017ff9852d9392778684738341'></script>
+<link rel='https://api.w.org/' href='https://www.d20pfsrd.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.d20pfsrd.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.d20pfsrd.com/wp-includes/wlwmanifest.xml" />
+
+<link rel="canonical" href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/goblin/" />
+<link rel='shortlink' href='https://www.d20pfsrd.com/?p=60618' />
+<link rel="alternate" type="application/json+oembed" href="https://www.d20pfsrd.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.d20pfsrd.com%2Fbestiary%2Fmonster-listings%2Fhumanoids%2Fgoblin%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.d20pfsrd.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.d20pfsrd.com%2Fbestiary%2Fmonster-listings%2Fhumanoids%2Fgoblin%2F&#038;format=xml" />
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                            <script src="https://s.nitropay.com/ads-99.js"></script>
+                    <script language="JavaScript">
+                        ognNitroPay = true;
+                    </script>
+                    <link rel="icon" href="https://www.d20pfsrd.com/wp-content/uploads/sites/12/2018/04/d20pfsrd-logo-256-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://www.d20pfsrd.com/wp-content/uploads/sites/12/2018/04/d20pfsrd-logo-256.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://www.d20pfsrd.com/wp-content/uploads/sites/12/2018/04/d20pfsrd-logo-256.png" />
+<meta name="msapplication-TileImage" content="https://www.d20pfsrd.com/wp-content/uploads/sites/12/2018/04/d20pfsrd-logo-256.png" />
+		<style type="text/css" id="wp-custom-css">
+			/*
+Custom CSS has moved to
+OGN SRD Theme > Additional CSS
+*/
+
+		</style>
+	      </head>
+  <body class="page-template-default page page-id-60618 page-parent page-child parent-pageid-60353">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="/" aria-expanded="false">OGN<span class="caret"></span></a>
+                    <ul class="dropdown-menu" id="ogn-sites-dropdown">
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/">d20PFSRD</a>
+                </li>
+            </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li id="ogn-login"></li>
+            <li>
+                <form class="search navbar-form navbar-right" action="https://cse.google.com/cse" method="get"role="search">
+                    <input type="hidden" value="006680642033474972217:6zo0hx_wle8" name="cx" id="cx">
+                <div class="input-group">
+                <input class="form-control" name="q" type="search" required class="searchField" placeholder="Google Site Search" maxlength="50"/>
+                <span class="input-group-btn"> <button type="submit" class="search-button btn btn-primary"> <span class="glyphicon glyphicon-search"></span> </button> </span>
+                </div>
+                </form>
+            </li>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+<div class="container-fluid">
+<div class="ognannouncement-container passive">
+<div class="ognannouncement passive"></div>
+</div>
+<div class="header row-fluid">
+	<div class="col-sm-1 col-md-1 col-xs-0"></div>
+	<div class="col-sm-10 col-md-10 col-xs-12">
+		<div class="logo">
+		<a href="/">
+                    <img class="header-logo img-responsive" src="https://www.d20pfsrd.com/wp-content/uploads/sites/12/2017/01/customLogo_gif.png" height="139" width="756" alt="" />
+		</a>
+		</div>
+	</div>
+	<div class="col-sm-1 col-md-1 col-xs-0"></div>
+    <div class="clearfix"></div>
+    <header class="header" role="banner">
+         <nav class="navbar" role="navigation">
+
+<!-- Header Menu -->
+
+
+	<!--  Direct links / Right nav
+	<ul class="nav navbar-nav">
+            <li class=""><a href=""></a></li>
+        </ul>
+
+	<ul class="nav navbar-nav navbar-right">
+  	 <li class=""><a href=""></a></li>
+        </ul>
+ 	-->
+    <div class="menuclear"></div>
+    </nav>    </header>
+</div>
+<div class="clearfix"></div>
+<div class="content row-fluid">
+
+<div class="col-12">
+    <div class="row-fluid">
+
+        <!-- Left Sidebar -->
+    <aside class="sidebar-left" role="complementary">
+
+    <div id="menu-expander" class="menu-expander hidden-sm hidden-md hidden-lg">
+    <button type="button" class="btn btn-default" aria-label="Expand Menu">
+        <span id="expand-button" class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    </button>
+    <script type="text/javascript">
+        jQuery('div#menu-expander').click(function() {
+            jQuery('.sidebar-contents').toggleClass('expand-menu');
+            jQuery('main').toggleClass('expand-menu');
+            jQuery('span#expand-button').toggleClass('glyphicon-chevron-right').toggleClass('glyphicon-chevron-left');
+        });
+    </script>
+    </div>
+
+    <div class="sidebar-contents">
+              <div class="sidebar-widget">
+               <div class="widget widget_ognajaxnav widget_srdpagelist"><ul id="ognajaxnav1" class="ognajaxnav" parent="" depth="0" currentpage="60618"><li class="page_item new parent" post_id="52278"><a href="https://www.d20pfsrd.com/">Home</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="109106"><a href="https://www.d20pfsrd.com/basics-ability-scores/">Basics &amp; Ability Scores</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="70407"><a href="https://www.d20pfsrd.com/alignment-description/">Alignment &amp; Description</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="90602"><a href="https://www.d20pfsrd.com/races/">Races</a></li><li class="page_item new parent page_item_has_children" post_id="81812"><a href="https://www.d20pfsrd.com/classes/">Classes</a><ul class="children"><li class="page_item new parent" post_id="84814"><a href="https://www.d20pfsrd.com/classes/character-advancement/">Character Advancement</a></li><li class="page_item new parent" post_id="84816"><a href="https://www.d20pfsrd.com/classes/class-archetypes/">Class Archetypes</a></li><li class="page_item new parent page_item_has_children" post_id="84838"><a href="https://www.d20pfsrd.com/classes/core-classes/">Core Classes</a><ul class="children"><li class="page_item new parent page_item_has_children not_loaded" post_id="84839"><a href="https://www.d20pfsrd.com/classes/core-classes/barbarian/">Barbarian</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="85337"><a href="https://www.d20pfsrd.com/classes/core-classes/bard/">Bard</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="85555"><a href="https://www.d20pfsrd.com/classes/core-classes/cleric/">Cleric</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="86263"><a href="https://www.d20pfsrd.com/classes/core-classes/druid/">Druid</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="86505"><a href="https://www.d20pfsrd.com/classes/core-classes/fighter/">Fighter</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="86676"><a href="https://www.d20pfsrd.com/classes/core-classes/monk/">Monk</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="86818"><a href="https://www.d20pfsrd.com/classes/core-classes/paladin/">Paladin</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="86966"><a href="https://www.d20pfsrd.com/classes/core-classes/ranger/">Ranger</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="87124"><a href="https://www.d20pfsrd.com/classes/core-classes/rogue/">Rogue</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="87852"><a href="https://www.d20pfsrd.com/classes/core-classes/sorcerer/">Sorcerer</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="88188"><a href="https://www.d20pfsrd.com/classes/core-classes/wizard/">Wizard</a></li></ul></li><li class="page_item new parent page_item_has_children not_loaded" post_id="83159"><a href="https://www.d20pfsrd.com/classes/base-classes/">Base Classes</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="82837"><a href="https://www.d20pfsrd.com/classes/alternate-classes/">Alternate Classes</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="88465"><a href="https://www.d20pfsrd.com/classes/hybrid-classes/">Hybrid Classes</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="89543"><a href="https://www.d20pfsrd.com/classes/unchained-classes/">Unchained Classes</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="89328"><a href="https://www.d20pfsrd.com/classes/prestige-classes/">Prestige Classes</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="89224"><a href="https://www.d20pfsrd.com/classes/npc-classes/">NPC Classes</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="81813"><a href="https://www.d20pfsrd.com/classes/3rd-party-classes/">3rd Party Classes</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="89218"><a href="https://www.d20pfsrd.com/classes/monster-classes/">Monster Classes (3pp)</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="84817"><a href="https://www.d20pfsrd.com/classes/arcane-archetypes-rogue-genius-games/">Arcane Archetypes (3pp)</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="82714"><a href="https://www.d20pfsrd.com/classes/3rd-party-prestige-classes/">3rd Party Prestige Classes</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="82708"><a href="https://www.d20pfsrd.com/classes/3rd-party-npc-classes/">3rd Party NPC Classes</a></li></ul></li><li class="page_item new parent page_item_has_children not_loaded" post_id="91199"><a href="https://www.d20pfsrd.com/feats/">Feats</a></li><li class="page_item new parent" post_id="110850"><a href="https://www.d20pfsrd.com/skills/">Skills</a></li><li class="page_item new parent" post_id="110918"><a href="https://www.d20pfsrd.com/traits/">Traits</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="109161"><a href="https://www.d20pfsrd.com/equipment/">Equipment</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="102432"><a href="https://www.d20pfsrd.com/magic-items/">Magic Items</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="71179"><a href="https://www.d20pfsrd.com/magic/">Magic</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="52986"><a href="https://www.d20pfsrd.com/gamemastering/">Gamemastering</a></li><li class="page_item new parent" post_id="215367"><a href="https://www.d20pfsrd.com/akashic-arms-and-armor/">Akashic Arms and Armor</a></li><li class="page_item new parent page_item_has_children" post_id="57186"><a href="https://www.d20pfsrd.com/bestiary/">Bestiary</a><ul class="children"><li class="page_item new parent page_item_has_children not_loaded" post_id="66206"><a href="https://www.d20pfsrd.com/bestiary/npc-s/">NPCs</a></li><li class="page_item new parent page_item_has_children" post_id="57428"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/">(Bestiary) By Type</a><ul class="children"><li class="page_item new parent" post_id="150051"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/elder-influences/">Elder Influences</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="57441"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/aberrations/">Aberrations</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="57929"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/animals/">Animals</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="58778"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/constructs/">Constructs</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="59194"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/dragons/">Dragons</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="60067"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/fey/">Fey</a></li><li class="page_item new parent page_item_has_children" post_id="60353"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/">Humanoids</a><ul class="children"><li class="page_item new parent" post_id="214497"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/crueltide-elf/">Crueltide Elf</a></li><li class="page_item new parent" post_id="212420"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/bahgra/">Bahgra</a></li><li class="page_item new parent" post_id="212436"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/elali/">Elali</a></li><li class="page_item new parent" post_id="212437"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/erebus/">Erebus</a></li><li class="page_item new parent" post_id="208845"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/grachukk-clan-master/">Grachukk Clan Master</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="212445"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/karn-tor/">Karn-Tor</a></li><li class="page_item new parent" post_id="212463"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/syaandi/">Syaandi</a></li><li class="page_item new parent" post_id="208770"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/ujaheim-rider/">Ujaheim Rider</a></li><li class="page_item new parent" post_id="205717"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/gurgist/">Gurgist</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="205185"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/mortic/">Mortic</a></li><li class="page_item new parent" post_id="206274"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/savage-green-horde/">Savage Green Horde</a></li><li class="page_item new parent" post_id="206279"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/urrk/">Urrk</a></li><li class="page_item new parent" post_id="149864"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/colliatur/">Colliatur</a></li><li class="page_item new parent" post_id="149869"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/draaki/">Draaki</a></li><li class="page_item new parent" post_id="149894"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/gitwerc/">Gitwerc</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="149270"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/deep-one/">Deep One</a></li><li class="page_item new parent" post_id="149273"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/denizen-of-leng/">Denizen of Leng</a></li><li class="page_item new parent" post_id="153959"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/grandfather-of-flowers/">Grandfather of Flowers</a></li><li class="page_item new parent" post_id="149441"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/grove-guardian/">Grove Guardian</a></li><li class="page_item new parent" post_id="150009"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/kraidyl/">Kraidyl</a></li><li class="page_item new parent" post_id="149445"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/necromancer-of-leng/">Necromancer of Leng</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="149822"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/okkator/">Okkator</a></li><li class="page_item new parent" post_id="153960"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/parasite-mystic/">Parasite Mystic</a></li><li class="page_item new parent" post_id="149446"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/risen-witch/">Risen Witch</a></li><li class="page_item new parent" post_id="149593"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/tcho-tcho/">Tcho-Tcho</a></li><li class="page_item new parent" post_id="149465"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/thrall-of-yog-sothoth/">Thrall of Yog-Sothoth</a></li><li class="page_item new parent" post_id="149591"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/troll-lake/">Troll, Lake</a></li><li class="page_item new parent" post_id="149437"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/zoog/">Zoog</a></li><li class="page_item new parent" post_id="149548"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/zwerc/">Zwerc</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="120676"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/entothrope-weremantis/">Entothrope, Weremantis</a></li><li class="page_item new parent" post_id="120699"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/goblin-monkey/">Monkey Goblin</a></li><li class="page_item new parent" post_id="120748"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/munavri-2/">Munavri</a></li><li class="page_item new parent" post_id="120787"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/rougarou/">Rougarou</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="118205"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/troop/">Troop</a></li><li class="page_item new parent" post_id="60354"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/adlet/">Adlet</a></li><li class="page_item new parent" post_id="60356"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/android/">Android</a></li><li class="page_item new parent" post_id="60358"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/barbegazi-ice-gnome/">Barbegazi (Ice Gnome) (3pp)</a></li><li class="page_item new parent" post_id="60368"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/changeling/">Changeling</a></li><li class="page_item new parent" post_id="60370"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/charau-ka/">Charau-Ka</a></li><li class="page_item new parent" post_id="60376"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/dark-creeper-tohc/">Dark Creeper (3pp)</a></li><li class="page_item new parent" post_id="60386"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/dark-stalker-tohc/">Dark Stalker (3pp)</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="60394"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/drow-common/">Drow</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="60681"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/merfolk/">Merfolk</a></li><li class="page_item new parent" post_id="60360"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/boggard/">Boggard</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="60362"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/bugbear/">Bugbear</a></li><li class="page_item new parent" post_id="60366"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/catfolk/">Catfolk</a></li><li class="page_item new parent" post_id="60372"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/dark-caller/">Dark Caller</a></li><li class="page_item new parent" post_id="60374"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/dark-creeper/">Dark Creeper</a></li><li class="page_item new parent" post_id="60378"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/dark-dancer/">Dark Dancer</a></li><li class="page_item new parent" post_id="60380"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/dark-empath/">Dark Empath</a></li><li class="page_item new parent" post_id="60382"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/dark-slayer/">Dark Slayer</a></li><li class="page_item new parent" post_id="60384"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/dark-stalker/">Dark Stalker</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="60388"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/derro/">Derro</a></li><li class="page_item new parent" post_id="60392"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/dhampir/">Dhampir</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="60398"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/duergar/">Duergar</a></li><li class="page_item new parent" post_id="60402"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/firbolg/">Firbolg</a></li><li class="page_item new parent" post_id="60404"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/frost-man/">Frost Man</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="60406"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/giants/">Giants</a></li><li class="page_item new parent" post_id="60598"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/gigas-abyss/">Gigas, Abyss</a></li><li class="page_item new parent" post_id="60600"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/gillman/">Gillman</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="60602"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/gnoll/">Gnoll</a></li><li class="page_item new parent page_item_has_children current_page" post_id="60618"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/goblin/">Goblin</a><ul class="children"><li class="page_item new parent" post_id="206118"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/goblin/goblin-fortuneseller/">Goblin, Fortuneseller</a></li><li class="page_item new parent" post_id="60620"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/goblin/monkey-goblin/">Goblin, Monkey</a></li></ul></li><li class="page_item new parent" post_id="60622"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/gray/">Gray</a></li><li class="page_item new parent" post_id="60624"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/grippli/">Grippli</a></li><li class="page_item new parent" post_id="60626"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/grippli-tohc/">Grippli (3pp)</a></li><li class="page_item new parent" post_id="60628"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/hobgoblin/">Hobgoblin</a></li><li class="page_item new parent" post_id="60630"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/huggermugger/">Huggermugger (3pp)</a></li><li class="page_item new parent" post_id="60632"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/human-neandethal/">Human, Neanderthal</a></li><li class="page_item new parent" post_id="60659"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/lokansir/">Jotunblood Hill Giant</a></li><li class="page_item new parent" post_id="60635"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/kasatha/">Kasatha</a></li><li class="page_item new parent" post_id="60637"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/kijimuna/">Kijimuna</a></li><li class="page_item new parent" post_id="60639"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/kitsune/">Kitsune</a></li><li class="page_item new parent" post_id="60641"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/kobold/">Kobold</a></li><li class="page_item new parent" post_id="60643"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/kuah-lij/">Kuah-Lij</a></li><li class="page_item new parent" post_id="60645"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/kuru/">Kuru</a></li><li class="page_item new parent" post_id="60647"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/lashunta/">Lashunta</a></li><li class="page_item new parent" post_id="60649"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/lava-child-tohc/">Lava Child</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="60651"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/lizardfolk/">Lizardfolk</a></li><li class="page_item new parent" post_id="60657"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/locathah/">Locathah</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="60661"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/lycanthrope/">Lycanthrope</a></li><li class="page_item new parent" post_id="60683"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/merfolk-deep/">Merfolk, Deep</a></li><li class="page_item new parent" post_id="60687"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/nagaji/">Nagaji</a></li><li class="page_item new parent" post_id="60689"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/nilbog/">Nilbog (3pp)</a></li><li class="page_item new parent" post_id="60691"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/ogrekin-half-ogre/">Ogrekin (Half-Ogre)</a></li><li class="page_item new parent" post_id="60693"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/ogren/">Ogren</a></li><li class="page_item new parent" post_id="60695"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/ogrillon/">Ogrillon</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="60699"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/orcs/">Orcs</a></li><li class="page_item new parent" post_id="60713"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/panotti/">Panotti</a></li><li class="page_item new parent" post_id="60715"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/papinijuwari/">Papinijuwari</a></li><li class="page_item new parent" post_id="60717"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/ratfolk/">Ratfolk</a></li><li class="page_item new parent" post_id="60719"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/reptoid/">Reptoid</a></li><li class="page_item new parent" post_id="60721"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/samsaran/">Samsaran</a></li><li class="page_item new parent" post_id="60723"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/sasquatch/">Sasquatch</a></li><li class="page_item new parent" post_id="60725"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/silid/">Silid</a></li><li class="page_item new parent" post_id="60727"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/skulk/">Skulk</a></li><li class="page_item new parent" post_id="60729"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/skulk-tohc/">Skulk (3pp)</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="60731"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/spriggan/">Spriggan</a></li><li class="page_item new parent" post_id="60735"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/stormwarden-tohc/">Stormwarden</a></li><li class="page_item new parent" post_id="60737"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/strix/">Strix</a></li><li class="page_item new parent" post_id="60739"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/svirfneblin/">Svirfneblin</a></li><li class="page_item new parent" post_id="60741"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/syrinx/">Syrinx</a></li><li class="page_item new parent" post_id="60743"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/tabaxi/">Tabaxi</a></li><li class="page_item new parent" post_id="60745"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/tengu/">Tengu</a></li><li class="page_item new parent" post_id="60747"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/triaxian/">Triaxian</a></li><li class="page_item new parent" post_id="60749"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/troblin/">Troblin (3pp)</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="60751"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/troglodyte/">Troglodyte</a></li><li class="page_item new parent" post_id="60757"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/trollkin-kp/">Trollkin</a></li><li class="page_item new parent" post_id="60763"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/udaeus/">Udaeus</a></li><li class="page_item new parent" post_id="60765"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/vanara/">Vanara</a></li><li class="page_item new parent" post_id="60767"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/ved/">Ved</a></li><li class="page_item new parent" post_id="60769"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/vishkanya/">Vishkanya</a></li><li class="page_item new parent" post_id="60771"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/wayang/">Wayang</a></li><li class="page_item new parent" post_id="60773"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/wikkawak/">Wikkawak</a></li><li class="page_item new parent" post_id="60775"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/xulgath/">Xulgath</a></li></ul></li><li class="page_item new parent page_item_has_children not_loaded" post_id="60778"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/magical-beasts/">Magical Beasts</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="61635"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/monstrous-humanoids/">Monstrous Humanoids</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="63805"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/plants/">Plants</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="61949"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/oozes/">Oozes</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="62127"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/outsiders/">Outsiders</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="64096"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/templates/">Templates</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="64792"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/undead/">Undead</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="65430"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/vermin/">Vermin</a></li></ul></li><li class="page_item new parent page_item_has_children not_loaded" post_id="57187"><a href="https://www.d20pfsrd.com/bestiary/bestiary-alphabetical/">(Bestiary) Alphabetical</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="57215"><a href="https://www.d20pfsrd.com/bestiary/bestiary-by-challenge-rating/">(Bestiary) By Challenge Rating</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="57241"><a href="https://www.d20pfsrd.com/bestiary/bestiary-by-terrain/">(Bestiary) By Terrain</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="57420"><a href="https://www.d20pfsrd.com/bestiary/indexes-and-tables/">Indexes and Tables</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="67728"><a href="https://www.d20pfsrd.com/bestiary/rules-for-monsters/">Rules for Monsters</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="57275"><a href="https://www.d20pfsrd.com/bestiary/bestiary-hub/">Bestiary Alternative Listing</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="57293"><a href="https://www.d20pfsrd.com/bestiary/fan-conversions/">Modules</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="67754"><a href="https://www.d20pfsrd.com/bestiary/tools/">Tools</a></li><li class="page_item new parent page_item_has_children not_loaded" post_id="67800"><a href="https://www.d20pfsrd.com/bestiary/unique-monsters/">Unique Monsters</a></li></ul></li><li class="page_item new parent page_item_has_children not_loaded" post_id="157240"><a href="https://www.d20pfsrd.com/alternative-rule-systems/">Alternative Rule Systems</a></li><li class="page_item new parent" post_id="209489"><a href="https://www.d20pfsrd.com/d20pfsrd-com-publishing-store/">d20pfsrd.com Publishing Store</a></li></ul></div>                <div id="left-sidebar-filler" class="filler"></div>
+
+	  </div>
+    </aside>
+    <aside class="sidebar-left sidebar-left-last" role="complementary">
+        <div class="widget widget_srdgoogleads"><div class="adbox-inwidget"><div id="nitropay-d20pfsrd-left-upper" class="ogn-npa"></div><script type="text/javascript">
+    ognCreateAdSpot("nitropay-d20pfsrd-left-upper","vert");
+</script></div></div><div class="widget widget_srdgoogleads"><div class="adbox-inwidget"><div id="nitropay-d20pfsrd-left-lower" class="ogn-npa"></div><script type="text/javascript">
+    ognCreateAdSpot("nitropay-d20pfsrd-left-lower","vert");
+</script></div></div>
+	    </>
+
+    </aside>
+
+<!-- /end sidebar -->
+            <!-- Content -->
+            <main role="main" class="pre-nextgen">
+		<section>
+
+
+		                                        <article id="post-60618" class="bestiary bestiarybytype humanoids goblin post-60618 page type-page status-publish hentry">
+                        <a class="bread-parent" parentid="52278" href="https://www.d20pfsrd.com/" title="Home">Home</a>&nbsp;&gt;<a class="bread-parent" parentid="57186" href="https://www.d20pfsrd.com/bestiary/" title="Bestiary">Bestiary</a>&nbsp;&gt;<a class="bread-parent" parentid="57428" href="https://www.d20pfsrd.com/bestiary/monster-listings/" title="(Bestiary) By Type">(Bestiary) By Type</a>&nbsp;&gt;<a class="bread-parent" parentid="60353" href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/" title="Humanoids">Humanoids</a>&nbsp;&gt;                        <h1>Goblin</h1>
+
+                                                    <div class="page-widget top-post">
+                                <div class="widget widget_srdgoogleads"><div class="adbox-inwidget"><div id="nitropay-d20pfsrd-top" class="ogn-npa"></div><script type="text/javascript">
+    ognCreateAdSpot("nitropay-d20pfsrd-top","horiz");
+</script></div></div>                            </div>
+                                                <div class="row display-flex">
+                            <div class="col-sm-9 col-md-9 col-lg-10 col-xs-12 article-text">
+                               <div class="page-center">
+                                      <div class="article-content">
+                                          <div id="toc_container" class="toc_light_blue no_bullets"><p class="toc_title">Contents</p><ul class="toc_list"><li><a href="#Examples">Examples</a></li><li><a href="#Variants">Variants</a><ul><li><a href="#Arctic_Goblins">Arctic Goblins</a></li><li><a href="#Deep_Goblins">Deep Goblins</a></li><li><a href="#Over-sized_Goblins">Over-sized Goblins</a></li><li><a href="#Caveling_CR_0">Caveling (CR +0)</a></li><li><a href="#Gibberling_CR_1">Gibberling (CR +1)</a></li><li><a href="#Hellion_CR_1">Hellion (CR +1)</a></li><li><a href="#Lasher_CR_1">Lasher (CR +1)</a></li><li><a href="#Thorn_CR_1">Thorn (CR +1)</a></li></ul></li></ul></div>
+<div class="ogn-childpages"style="float:right"><p><b>Subpages</b></p><ul class="ogn-childpages"><li class="page new parent" post_id="206118"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/goblin/goblin-fortuneseller/">Goblin, Fortuneseller</a></li><li class="page new parent" post_id="60620"><a href="https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/goblin/monkey-goblin/">Goblin, Monkey</a></li></ul></div>
+<div class="product-right">
+          <div id="shopify-buybutton-215094741" class="shopify-buybutton shopify-buybutton-embed" shopify-id="215094741">
+        </div>
+</div>
+<p class="description">This creature stands barely three feet tall, its scrawny, humanoid body dwarfed by its wide, ungainly head.</p>
+<div class="statblock">
+ <p class="title">Goblin <span class="level">CR 1/3</span></p>
+ <p><b>XP 135</b><br>Goblin <a href="https://www.d20pfsrd.com/classes/npc-classes/warrior">warrior</a> 1<br>NE Small <a href="https://www.d20pfsrd.com/bestiary/rules-for-monsters/creature-types#TOC-Humanoid" rel="nofollow">humanoid</a> (<a href="https://www.d20pfsrd.com/bestiary/rules-for-monsters/creature-types#TOC-Goblinoid">goblinoid</a>)<br> <b>Init</b> +6; <b>Senses</b> <a href="https://www.d20pfsrd.com/gamemastering/special-abilities#TOC-Darkvision">darkvision</a> 60 ft.; <a href="https://www.d20pfsrd.com/skills/perception" rel="nofollow">Perception</a> –1</p>
+ <p class="divider">DEFENSE</p>
+ <p><b>AC</b> 16, touch 13, flat-footed 14 (+2 <a href="https://www.d20pfsrd.com/basics-ability-scores/glossary#TOC-Armor-Bonus">armor</a>, +2 <a href="https://www.d20pfsrd.com/basics-ability-scores/ability-scores#TOC-Dexterity-Dex-">Dex</a>, +1 <a href="https://www.d20pfsrd.com/basics-ability-scores/glossary#TOC-Shield-Bonus">shield</a>, +1 <a href="https://www.d20pfsrd.com/basics-ability-scores/glossary#TOC-Size-Bonus">size</a>)<br> <b>hp</b> 6 (1d10+1)<br> <b>Fort</b> +3, <b>Ref</b> +2, <b>Will</b> –1</p>
+ <p class="divider">OFFENSE</p>
+ <p><b>Speed</b> 30 ft.<br> <b>Melee</b> short sword +2 (1d4/19–20)<br> <b>Ranged</b> short bow +4 (1d4/×3)</p>
+ <p class="divider">STATISTICS</p>
+ <p><b>Str</b> 11, <b>Dex</b> 15, <b>Con</b> 12, <b>Int</b> 10, <b>Wis</b> 9, <b>Cha</b> 6<br> <b>Base Atk</b> +1; <b>CMB</b> +0; <b>CMD</b> 12<br> <b>Feats</b> <a href="https://www.d20pfsrd.com/feats/combat-feats/improved-initiative-combat" rel="nofollow">Improved Initiative</a><br> <b>Skills</b> <a href="https://www.d20pfsrd.com/skills/ride" rel="nofollow">Ride</a> +10, <a href="https://www.d20pfsrd.com/skills/stealth" rel="nofollow">Stealth</a> +10, <a href="https://www.d20pfsrd.com/skills/swim" rel="nofollow">Swim</a> +4; <b>Racial Modifiers</b> +4 <a href="https://www.d20pfsrd.com/skills/ride" rel="nofollow">Ride</a>, +4 <a href="https://www.d20pfsrd.com/skills/stealth" rel="nofollow">Stealth</a><br> <b>Languages</b> Goblin</p>
+</div>
+<p class="divider">ECOLOGY</p>
+<p><b>Environment</b> temperate forest and plains (usually coastal regions)<br> <b>Organization</b> gang (4–9), warband (10–16 with <a href="https://www.d20pfsrd.com/bestiary/monster-listings/animals/dog/goblin-dog">goblin dog</a> mounts), or tribe (17+ plus 100% noncombatants; 1 sergeant of 3rd level per 20 adults; 1 or 2 lieutenants of 4th or 5th level; 1 leader of 6th–8th level; and 10–40 <a href="https://www.d20pfsrd.com/bestiary/monster-listings/animals/dog/goblin-dog">goblin dogs</a>, <a href="https://www.d20pfsrd.com/bestiary/monster-listings/animals/canines/wolf/">wolves</a>, or <a href="https://www.d20pfsrd.com/magical-beasts/worg">worgs</a>)<br> <b>Treasure</b> NPC gear (leather <a href="https://www.d20pfsrd.com/basics-ability-scores/glossary#TOC-Armor-Bonus">armor</a>, light wooden shield, short sword, short bow with 20 arrows, other treasure)</p>
+<img src="../../../../_/rsrc/1474175139539/images/warriorgoblin02d1.jpg?height=400" height="400" border="0" style="float:right">
+
+<p>Goblins prefer to dwell in caves, amid large and dense thickets of thistles and brambles, or in structures built and then abandoned by others. Very few goblins have the drive to build structures of their own. Coastlines are favored, as goblins are quite fond of sifting through junk and flotsam in an unending quest to find treasures among the refuse of more civilized races.</p>
+
+<p>Goblin hatred runs deep, and few things inspire their wrath more than gnomes (who have long fought against goblins), horses (who frighten goblins tremendously), and regular dogs (whom goblins regard as pale imitations of goblin dogs).</p>
+
+<p>Goblins are also quite superstitious, and treat magic with a fawning mixture of awe and fear. They have the habit of ascribing magic to the mundane as well, with fire and writing both taking on mystical power in goblin society. Fire is much loved by goblins for its capacity to wreak great destruction and because it doesn&#8217;t require size or strength to wield, but written words are hated. Goblins believe that writing steals words out of your head, and as a result of this belief, goblins are universally illiterate.</p>
+
+<p>Goblins are voracious and can eat their body weight in food daily without growing fat. Goblin lairs always have numerous storerooms and larders. While they prefer human and gnome flesh, a goblin won&#8217;t turn down any food—except, perhaps, vegetables.</p>
+
+<h3><span id="Examples">Examples</span></h3>
+<p><a href="https://www.d20pfsrd.com/bestiary/unique-monsters/cr-5/blobog">Goblin cleric 3 / rogue 3</a><br> <a href="https://www.d20pfsrd.com/bestiary/unique-monsters/cr-3/gogmurt-tangletooth">Goblin druid 4 (&amp; companion)</a><br> <a href="https://www.d20pfsrd.com/bestiary/monster-listings/npc-s/npc-0/goblin-spider-rider">Goblin fighter 1</a><br> <a href="https://www.d20pfsrd.com/bestiary/unique-monsters/cr-2/koruvus">Goblin fighter 2</a><br> <a href="https://www.d20pfsrd.com/bestiary/unique-monsters/cr-2/goblin-ranger-3">Goblin ranger 3</a></p>
+
+<h3><span id="Variants"><a name="TOC-Variants"></a>Variants</span></h3>
+
+<h4><span id="Arctic_Goblins"><a name="TOC-Arctic-Goblins"></a>Arctic Goblins</span></h4>
+<p class="source"><b>Source</b> PCS:CMR</p>
+ <p>An arctic goblin is furrier than its kin, covered with white hair that grants it cold resistance 5.</p>
+
+<h4><span id="Deep_Goblins">Deep Goblins</span></h4>
+ <p class="source"><b>Source</b> <a href="https://amzn.to/2CVmIV8" target="_blank" rel="noopener">PCS:CMR</a></p>
+ <p>Those who seek shelter in the endless caverns of the deep underworld grow large bulbous eyes that grant <a href="https://www.d20pfsrd.com/gamemastering/special-abilities#TOC-Darkvision">darkvision</a> out to 120 feet and long spidery limbs that give them a +5 racial bonus on Climb checks.</p>
+
+<h4><span id="Over-sized_Goblins">Over-sized Goblins</span></h4>
+ <p>A few goblins attain a much larger size than their kin. No one is exactly sure why they grow to be giants among their kind, but it’s probably due to a combination of luck, diet, and constant access to food. These goblins are monsters among their own kind, not just in height, but also in girth and in strength. If not cast out for eating all of the tribe’s food, over-sized goblins often become the bosses of their tribes, and the most powerful of them become chiefs. Over-sized goblins are Medium size, and grow to 4 to 5 feet tall. They tend to be particularly obese, weighing between 225 and 275 pounds. Instead of the normal racial ability score modifiers for goblins, over-sized goblins gain a +2 bonus to Strength, a +2 bonus to Dexterity, and a –2 penalty to Charisma.</p>
+
+<h4><span id="Caveling_CR_0">Caveling (CR +0)</span></h4>
+<p class="source"><b>Source</b> <a title="Rocks Fall, Everyone Dies Blog" href="http://rocksfalleveryonedies.blogspot.com/2010/07/goblin-mutations.html" target="_blank" rel="noopener">Rocks Fall, Everyone Dies Blog</a></p>
+<p>These goblins hail from the deeper parts of the world. They gain <a href="https://www.d20pfsrd.com/gamemastering/special-abilities#TOC-Darkvision">darkvision</a> 60 feet, light blindness, two claw attacks that deal 1d3 damage, and a climb speed of 20 feet.</p>
+
+<h4><span id="Gibberling_CR_1">Gibberling (CR +1)</span></h4>
+<p class="source"><b>Source</b> <a title="Rocks Fall, Everyone Dies Blog" href="http://rocksfalleveryonedies.blogspot.com/2010/07/goblin-mutations.html" target="_blank" rel="noopener">Rocks Fall, Everyone Dies Blog</a></p>
+<p>These goblins have been touched by aberrant influence. They gain light sensitivity and the gibbering ability (see <a href="https://www.d20pfsrd.com/bestiary/monster-listings/aberrations/gibbering-mouther">gibbering mouther</a>) which can be activated as a move action with a range of 30 feet.</p>
+
+<h4><span id="Hellion_CR_1">Hellion (CR +1)</span></h4>
+<p class="source"><b>Source</b> <a title="Rocks Fall, Everyone Dies Blog" href="http://rocksfalleveryonedies.blogspot.com/2010/07/goblin-mutations.html" target="_blank" rel="noopener">Rocks Fall, Everyone Dies Blog</a></p>
+
+<img src="http://d20pfsrd.opengamingnetwork.com/wp-content/uploads/sites/12/2017/01/magmagoblins.jpg" border="0" style="float:right">
+
+<p>These goblins are born of dark energies, and are immediately identifiable by the flames that dance in their mouths. They are immune to fire and gain a bite attack that deals 1d4 damage plus 1d6 fire damage.</p>
+
+<h4><span id="Lasher_CR_1">Lasher (CR +1)</span></h4>
+<p class="source"><b>Source</b> <a title="Rocks Fall, Everyone Dies Blog" href="http://rocksfalleveryonedies.blogspot.com/2010/07/goblin-mutations.html" target="_blank" rel="noopener">Rocks Fall, Everyone Dies Blog</a></p>
+<p>This type of goblin has an unusually long tongue. As a standard action, they can use their tongues to perform disarm or trip attempts against targets within 10 feet with a +2 racial bonus and without provoking attacks of opportunity.</p>
+
+<h4><span id="Thorn_CR_1">Thorn (CR +1)</span></h4>
+<p class="source"><b>Source</b> <a title="Rocks Fall, Everyone Dies Blog" href="http://rocksfalleveryonedies.blogspot.com/2010/07/goblin-mutations.html" target="_blank" rel="noopener">Rocks Fall, Everyone Dies Blog</a></p>
+<p>Some goblins are born covered in soft thorns that grow rigid as they mature. These goblins gain a slam attack that deals 1d3 damage plus grab. In addition, a creature in a grapple with the thorn takes 1d3 damage at the beginning of the thorn&#8217;s turn, and any an attacker who successfully strikes the thorn with an unarmed attack or natural weapon take 1d3 damage.</p>                                                                                 <!--div style="clear:both"></div-->
+                                                                                </div>
+                               </div>
+                               <div class="article-edit-link">
+                                                                 </div>
+                            </div>
+                                <div class="col-sm-3 col-md-3 col-lg-2 col-xs-12 right-sidebar">
+                    <div class="widget widget_srdgoogleads"><div class="adbox-inwidget"><div id="nitropay-d20pfsrd-right-upper" class="ogn-npa"></div><script type="text/javascript">
+    ognCreateAdSpot("nitropay-d20pfsrd-right-upper","vert");
+</script></div></div>
+        <div class="right-sidebar-last">
+            <div class="widget widget_srdgoogleads"><div class="adbox-inwidget"><div id="nitropay-d20pfsrd-right-lower" class="ogn-npa"></div><script type="text/javascript">
+    ognCreateAdSpot("nitropay-d20pfsrd-right-lower","vert");
+</script></div></div>            <div class="product-listing" style="background-color:#FFF">
+                        <div id="shopify-buybutton-5528237765" class="shopify-buybutton shopify-buybutton-embed" shopify-id="5528237765">
+        </div>            </div>
+
+        </div>
+
+
+
+            <div id="right-sidebar-filler" class="filler"></div>
+
+    </div>
+                        </div>
+                    </article>
+
+                    <a class="scroll-to-top" href="#"><img src="https://www.d20pfsrd.com/wp-content/themes/srdtheme/images/Up1Blue.png" /></a>
+
+                                        <div class="sidebar-bottom">
+                            <div class="page-widget">
+                            <div class="widget widget_black_studio_tinymce"><div class="textwidget"><div style="width:100%;display: inline-block; overflow: hidden; text-align:center">
+
+<h4>Patreon Supporters</h4>
+
+<a style="text-decoration: none;" href="http://www.dinglesgames.com/tools/NPCGenerator/pathfinder/" target="_blank" rel="noopener noreferrer"><img src="https://www.d20pfsrd.com/_/images/Dingles-Games-Patreon.png" width="120" height="90" border="0" /></a>
+
+<a style="text-decoration: none;" href="http://bit.ly/FWPLAUNCH" target="_blank" rel="noopener noreferrer"><img src="https://www.d20pfsrd.com/wp-content/uploads/sites/12/2019/02/FWP-Ad.gif" width="120" height="90" border="0" /></a>
+
+<a style="text-decoration: none;" href="https://www.patreon.com/themadcartographer" target="_blank" rel="noopener noreferrer"><img src="https://www.d20pfsrd.com/wp-content/uploads/sites/12/2020/06/d20PFSRD-banner.jpg" width="120" height="90" border="0" /></a>
+
+</div></div></div><div class="widget widget_rss"><h4 class="widget-title"><a class="rsswidget" href="https://www.opengamingstore.com/collections/pathfinder/all.atom"><img class="rss-widget-icon" style="border:0" width="14" height="14" src="https://www.d20pfsrd.com/wp-includes/images/rss.png" alt="RSS" /></a> <a class="rsswidget" href="https://www.opengamingstore.com/collections/all">Latest Pathfinder products in the Open Gaming Store</a></h4><ul><li><a class='rsswidget' href='https://www.opengamingstore.com/products/legendary-alchemists'>Legendary Alchemists</a></li><li><a class='rsswidget' href='https://www.opengamingstore.com/products/the-fisherking-1'>The Fisherking</a></li><li><a class='rsswidget' href='https://www.opengamingstore.com/products/akashic-classes-kheshig'>Akashic Classes: Kheshig</a></li><li><a class='rsswidget' href='https://www.opengamingstore.com/products/spheres-apocrypha-banners'>Spheres Apocrypha: Banners</a></li><li><a class='rsswidget' href='https://www.opengamingstore.com/products/the-catgirl-handbook'>The Catgirl Handbook</a></li></ul></div>                            </div>
+                    </div>
+
+		</section>
+            </main>
+        </div>
+    </div> <!-- end row-fluid --->
+</div> <!-- /end content -->
+        <div class="span2">
+        </div>
+        <div class="clearfix"></div>
+    </div> <!-- /end row -->
+
+</div> <!-- /end container -->
+<div class="ogn-npa-container" style="width:400px;height:400px;max-width:400px;max-height:400px;margin-left:auto;margin-right:auto;">
+<div id="nitropay-d20pfsrd-video" class="ogn-npa ogn-npa-video"></div>
+</div><script type="text/javascript">
+    ognCreateVideoAdSpot("nitropay-d20pfsrd-video");
+</script>    <!-- Footer Nav -->
+<aside class="footer-nav" role="complementary">
+
+<div class="container-fluid">
+<div class="row">
+
+    <div class="col-md-12">
+
+          <div class="footer-widget">
+           <div class="widget widget_black_studio_tinymce"><div class="textwidget"><table style="width: 100%; font-size: 18px; background-color:rgb(255,255,255);" cellpadding="5">
+<tbody>
+<tr style="vertical-align: middle; background-color: #cfe2f3;">
+<td style="width: 20%; text-align: center;" title="Become an Editor!">
+<a class="sites-navigation-link topLevel" href="http://account.opengamingnetwork.com/manage/editrequest" target="_blank" rel="noopener">Become an Editor!</a></td>
+<td style="width: 20%; text-align: center;" title="Support open gaming and this site, shop the Open Gaming Store!"><a href="http://www.opengamingstore.com/" target="_blank">Support<br />
+Open Gaming</a></td>
+<td style="width: 20%; text-align: center;" title="Subscribe to our newsletter and get updates on all the new stuff on d20pfsrd.com!"><a href="http://eepurl.com/bNgnPH" target="_blank">Subscribe to Our<br />
+Newsletter</a></td>
+<td style="width: 20%; text-align: center;" title="If you are a publisher of Pathfinder or other gaming products, you really should get added to our store!"><a href="http://www.opengamingstore.com/pages/publisher-information" target="_blank">Sell in the<br />Open Gaming Store</a></td>
+<td style="width: 20%; text-align: center;" title="If you've seen an issue or problem with this site please let us know!"><a href="https://mantis.opengamingnetwork.com/report" target="_blank">Report a<br />
+Bug or Issue</a></td>
+</tr>
+</tbody>
+</table>
+</div></p></div>          </div>
+ 	</div>
+    </div>
+
+
+</div>
+<div class="row">
+
+ 	<div class="col-md-4">
+		  <div class="footer-widget">
+	   <div class="widget widget_black_studio_tinymce"><div class="textwidget"><div style="text-align:center">
+<p><a href="//www.d20pfsrd.com/new-pages">New Pages</a> <br />
+<a href="//www.d20pfsrd.com/recent-changes">Recent Changes</a> <br />
+<a href="//www.d20pfsrd.com/extras/legal/" target="_blank">Legal Information/Open Game License</a></p>
+<p><a href="//www.d20pfsrd.com/extras/community-creations">Fan Labs</a> <br />
+<a href="//www.d20pfsrd.com/extras/character-sheets">Character Sheets</a> <br />
+<a href="//www.d20pfsrd.com/extras/downloads">Downloads</a> <br />
+</p>
+<p><a href="//opengamingnetwork.com/report-problem/" target="_blank">Report a Problem</a></p>
+</div>
+</div></p></div>	  </div>
+	 	</div>
+
+	<div class="col-md-4">
+		  <div class="footer-widget">
+	   <div class="widget widget_black_studio_tinymce"><div class="textwidget"><div style="text-align:center">
+<p><a href="https://opengamingstore.com/" target="_blank">Shop the Open Gaming Store!</a> <br /> <br />
+<a href="https://opengamingnetwork.com/publishing/sell-in-the-open-gaming-store/" target="_blank">Sell at the Open Gaming Store!</a></p>
+<p><a href="https://www.patreon.com/d20pfsrd?ref=d20pfsrd.com" target="_blank">Back my Patreon!</a> <br /> <br />
+<a href="https://opengamingnetwork.com/publishing/get-published/" target="_blank">Get Published</a>
+</div>
+</div></p></div>	  </div>
+	 	</div>
+
+	<div class="col-md-4">
+		  <div class="footer-widget">
+	   <div class="widget widget_srdgoogleads"><div class="adbox-inwidget"><div style="text-align:center">
+<a href="http://www.opengamingstore.com/" target="_blank" title="Support Open Gaming, Shop the Open Gaming Store!">
+<img src="/wp-content/themes/srdtheme/images/open-gaming-160wide.png">
+</a>
+</div></div></p></div><div class="widget widget_black_studio_tinymce"><div class="textwidget"><div style="text-align:center">
+<a href="https://twitter.com/OpenGamingStore?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @OpenGamingStore</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+</div></p></div>	  </div>
+	 	</div>
+
+</div> <!-- /row Footer Nav -->
+</div> <!-- /container Footer Nav -->
+</aside>
+
+<footer class="container-fluid main-footer">
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-12">
+        <div class="footer" role="contentinfo">
+            <div class="credits-widget">
+                <p>Check out our other SRD sites!
+                                <a href="http://www.traveller-srd.com" target="_blank">Traveller SRD</a>
+                     |                     <a href="https://www.5esrd.com" target="_blank">5th Edition SRD</a>
+                     |                     <a href="http://www.dungeonworldsrd.com" target="_blank">Dungeon World SRD</a>
+                     |                     <a href="http://www.13thagesrd.com" target="_blank">13th Age SRD</a>
+                     |                     <a href="http://www.d20herosrd.com" target="_blank">d20HeroSRD</a>
+                     |                     <a href="http://www.d20pfsrd.com" target="_blank">d20PFSRD</a>
+                     |                     <a href="http://gumshoesrd.opengamingnetwork.com" target="_blank">GumshoeSRD</a>
+                     |                     <a href="http://fatecoresrd.opengamingnetwork.com" target="_blank">FateCoreSRD</a>
+                     |                     <a href="http://www.starjammersrd.com" target="_blank">Starjammer SRD</a>
+                     |                     <a href="http://articles.opengamingnetwork.com" target="_blank">OGN Articles</a>
+                     |                     <a href="http://designfinder.opengamingnetwork.com" target="_blank">Design Finder 2018</a>
+                     |                     <a href="http://fudgesrd.opengamingnetwork.com" target="_blank">Fudge SRD</a>
+                     |                     <a href="http://herebemonsters.opengamingnetwork.com" target="_blank">Here Be Monsters</a>
+                     |                     <a href="http://d20animesrd.opengamingnetwork.com" target="_blank">d20 Anime SRD</a>
+                     |                     <a href="http://pf2.d20pfsrd.com" target="_blank">PF2 SRD</a>
+                                    </p>
+                <p>
+                    <a href="https://updates.opengamingnetwork.com" target="_blank">OGN Updates</a>
+                </p>
+                                <p class="text-center footer-disclaimer">
+                    This site may earn <a href="//www.d20pfsrd.com/legal#affiliate-links">affiliate commissions</a> from the links on this page.
+                </p>
+                <p class="text-center">
+                    OGN SRD v1.10.0 using <a href="http://getbootstrap.com/">Bootstrap</a>
+                </p>
+                <p class="text-center">
+                    <a href="/new-pages">New Pages</a> | <a href="/recent-changes">Recent Changes</a> | <a href="//opengamingnetwork.com/privacy-policy">Privacy Policy</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-1"></div>
+</div> <!-- /end row -->
+</footer> <!-- /end container-fluid -->
+<!-- Google Analytics -->
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-54881920-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<!-- End Google Analytics -->
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ogn_params = {"ajaxurl":"\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.d20pfsrd.com/wp-content/plugins/ogncustom/js/ogn.js?ver=1551434665'></script>
+<script type='text/javascript' src='https://www.d20pfsrd.com/wp-content/plugins/ogncustom/js/ogn-shopify.js?ver=1603102473'></script>
+<script type='text/javascript' src='https://www.d20pfsrd.com/wp-content/plugins/ogncustom/js/ogn-nav.js?ver=1551434665'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var tocplus = {"smooth_scroll":"1","visibility_show":"show","visibility_hide":"hide","visibility_hide_by_default":"1","width":"Auto"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.d20pfsrd.com/wp-content/plugins/table-of-contents-plus/front.min.js?ver=2002'></script>
+<script type='text/javascript' src='https://www.d20pfsrd.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.d20pfsrd.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.d20pfsrd.com/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.d20pfsrd.com/wp-includes/js/jquery/ui/effect.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.d20pfsrd.com/wp-includes/js/jquery/ui/effect-blind.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.d20pfsrd.com/wp-includes/js/jquery/ui/draggable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.d20pfsrd.com/wp-includes/js/jquery/ui/droppable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.d20pfsrd.com/wp-content/themes/srdtheme/js/excel-bootstrap-table-filter-bundle.min.js?ver=1612122449'></script>
+<script type='text/javascript' src='https://www.d20pfsrd.com/wp-includes/js/wp-embed.min.js?ver=19f6eb017ff9852d9392778684738341'></script>
+<span data-ccpa-link="1"></span>
+</body>
+</html>
+<!-- Dynamic page generated in 0.330 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2021-05-21 18:13:56 -->
+
+<!-- Compression = gzip -->
+<!-- super cache -->

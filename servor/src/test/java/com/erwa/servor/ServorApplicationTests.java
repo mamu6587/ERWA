@@ -1,19 +1,14 @@
 package com.erwa.servor;
 
-import com.erwa.servor.model.Adventurer;
-import com.erwa.servor.services.AdventurerService;
-import org.mockito.internal.matchers.Null;
+import com.erwa.servor.services.StatBlockService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import java.util.UUID;
 
 @SpringBootTest
 class ServorApplicationTests {
 	@Autowired
-	private static AdventurerService adventurerService;
+	private static StatBlockService statBlockService;
 /*
 	@Test()
 	public static void setUp(){

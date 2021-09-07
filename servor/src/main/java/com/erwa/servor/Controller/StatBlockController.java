@@ -31,19 +31,19 @@ public class StatBlockController<list> {
         return this.service.getAllStatBlocks();
     }
 
-    @GetMapping(path = "{url}")
+    @GetMapping(path = "/{url}")
     public StatBlock getStatBlockByURL(@PathVariable("url") String url) {
         return service.getStatBlockByURL(url)
                 .orElse(null);
     }
 
-    @DeleteMapping(path = "{url}")
+    @DeleteMapping(path = "/{url}")
     public void deleteStatBlockByURL(@PathVariable("url") String url) {
         service.deleteStatBlockByURL(url);
 
     }
 
-    @PutMapping(path = "{url}")
+    @PutMapping(path = "/{url}")
     public void updateStatBlockByURL(@PathVariable("url") String url, @RequestBody StatBlock statblock) {
         service.updateStatBlockByURL(url, statblock);
     }

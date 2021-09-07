@@ -6,24 +6,26 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import org.springframework.core.style.ToStringCreator;
 
 import javax.persistence.*;
-import java.util.Objects;
-import java.util.UUID;
+import java.lang.reflect.Field;
+import java.util.*;
 
 @Entity
 @Table(name = "statblocks")
 public class StatBlock {
     private UUID id;
-    private String url;
+    private String url, name;
     private int cr,hp, ac, touchac, flatac, init, fort, reflex, will,str,dex,con,intelligence,wis,cha;
     //special; Special qualities och abilities
     private String type,senses,defensive,speeds,spellike,spells,feats,skills,languages,special;
 
-    public StatBlock(){
+    //TODO SENARE: DC exempelvis praktiskt; svårt dock eftersom varierar med ability och spells
+    //TODO hur representera en stat som inte hittas/finns på blocket; just nu inget null, vill vi ha miljarder "none"/"na" i databasen?
 
-    }
+    public StatBlock(){}
 
     public StatBlock(@JsonProperty("id") UUID id,
                      @JsonProperty("url") String url,
+                     @JsonProperty("name") String name,
                      @JsonProperty("cr") int  cr,
                      @JsonProperty("hp") int  hp,
                      @JsonProperty("ac") int  ac,
@@ -51,6 +53,7 @@ public class StatBlock {
                      @JsonProperty("special") String special)
     {
         this.id = UUID.randomUUID();
+        this.name = name;
         this.url = url;
         this.type = type;
         this.spells = spells;
@@ -79,6 +82,25 @@ public class StatBlock {
         this.intelligence = intelligence;
     }
 
+    /*** getCurrentStatList()
+     *
+     * @return a list of every stat in the stat block
+     */
+    public static List<String> getCurrentStatList(){
+        Field[] fields = StatBlock.class.getDeclaredFields();
+
+        // System.out.println(fields.toString());
+
+        List<String> statList;
+        statList = new ArrayList<>();
+
+        for (Field f:fields) {
+            String string = f.toString();
+            statList.add(string.substring(string.lastIndexOf(".")+1));
+        }
+        return statList;
+    }
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     public UUID getId() {
@@ -93,6 +115,9 @@ public class StatBlock {
     public String getUrl() {
         return url;
     }
+
+    @Column(name = "name", nullable = false)
+    public String getName(){return name;}
 
     @Column(name = "cr", nullable = false)
     public int getCr() {
@@ -219,111 +244,6 @@ public class StatBlock {
         return special;
     }
 
-
-    public void setUrl(String url) {
-        this.url = url;
-    }
-
-    public void setCr(int cr) {
-        this.cr = cr;
-    }
-
-    public void setHp(int hp) {
-        this.hp = hp;
-    }
-
-    public void setAc(int ac) {
-        this.ac = ac;
-    }
-
-    public void setTouchac(int touchac) {
-        this.touchac = touchac;
-    }
-
-    public void setFlatac(int flatac) {
-        this.flatac = flatac;
-    }
-
-    public void setInit(int init) {
-        this.init = init;
-    }
-
-    public void setFort(int fort) {
-        this.fort = fort;
-    }
-
-    public void setReflex(int reflex) {
-        this.reflex = reflex;
-    }
-
-    public void setWill(int will) {
-        this.will = will;
-    }
-
-    public void setStr(int str) {
-        this.str = str;
-    }
-
-    public void setDex(int dex) {
-        this.dex = dex;
-    }
-
-    public void setCon(int con) {
-        this.con = con;
-    }
-
-    public void setIntelligence(int intelligence) {
-        this.intelligence = intelligence;
-    }
-
-    public void setWis(int wis) {
-        this.wis = wis;
-    }
-
-    public void setCha(int cha) {
-        this.cha = cha;
-    }
-
-    public void setType(String type) {
-        this.type = type;
-    }
-
-    public void setSenses(String senses) {
-        this.senses = senses;
-    }
-
-    public void setDefensive(String defensive) {
-        this.defensive = defensive;
-    }
-
-    public void setSpeeds(String speeds) {
-        this.speeds = speeds;
-    }
-
-    public void setSpellike(String spellike) {
-        this.spellike = spellike;
-    }
-
-    public void setSpells(String spells) {
-        this.spells = spells;
-    }
-
-    public void setFeats(String feats) {
-        this.feats = feats;
-    }
-
-    public void setSkills(String skills) {
-        this.skills = skills;
-    }
-
-    public void setLanguages(String languages) {
-        this.languages = languages;
-    }
-
-    public void setSpecial(String special) {
-        this.special = special;
-    }
-
     @Override
     public String toString(){
         return new ToStringCreator(this).toString();
@@ -379,7 +299,8 @@ public class StatBlock {
                         this.spellike.equals(other.spellike) &&
                         this.spells.equals(other.spells) &&
                         this.type.equals(other.type) &&
-                        this.url.equals(other.url)
+                        this.url.equals(other.url) &&
+                        this.name.equals(other.name)
         ){
             return true;
         }

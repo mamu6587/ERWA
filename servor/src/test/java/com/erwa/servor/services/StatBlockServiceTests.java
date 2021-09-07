@@ -14,9 +14,9 @@ public class StatBlockServiceTests {
     //save, load, extract stats,
     @Test
     public void testServiceSaveLoad(){
-        UUID testUUID = UUID.fromString("hej");
+        UUID testUUID = UUID.randomUUID();
         StatBlock statBlock = new StatBlock(testUUID,
-                "www.d20pfsrd.com/noobs/noobiest.html",6,30, 20, 13, 15, 5, 7, 2, 7,16,14,16,8,12,15,
+                "www.d20pfsrd.com/noobs/noobiest.html", "noob",6,30, 20, 13, 15, 5, 7, 2, 7,16,14,16,8,12,15,
         //special; Special qualities och abilities
                 "type","senses","defensive","speeds","spellike","spells","feats","skills","languages","special");
         this.statBlockService.addStatBlock(statBlock);
