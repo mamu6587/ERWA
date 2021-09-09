@@ -29,17 +29,25 @@ public class StatBlockService {
         return DAO.findAll();
     }
 
-    //public Optional<StatBlock> getStatBlockById(UUID id){return Optional.of(DAO.getOne(id));}
 
-    //public void deleteStatBlockById(UUID id){DAO.deleteById(id);}
+    public Optional<StatBlock> getStatBlockById(UUID id){return Optional.of(DAO.getOne(id));}
 
-    //public void updateStatBlockById(UUID id, StatBlock newStatBlock){DAO.save(newStatBlock);}
+    public void deleteStatBlockById(UUID id){DAO.deleteById(id);}
 
+    public void updateStatBlockById(UUID id, StatBlock newStatBlock){DAO.save(newStatBlock);}
+
+/*
     public Optional<StatBlock> getStatBlockByURL(String URL){
     return Optional.of(DAO.getOne(URL));
     }
+
     public void deleteStatBlockByURL(String url){DAO.deleteById(url);}
 
     //Behövs denna?
     public void updateStatBlockByURL(String url, StatBlock newStatBlock){DAO.save(newStatBlock);}
+*/
+
+    //TODO nästa inkarnation
+    public Optional<List<StatBlock>> getStatBlockByName(String name) { return Optional.of(DAO.findByNameIgnoreCase(name)); }
+
 }

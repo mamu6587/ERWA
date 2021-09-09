@@ -1,0 +1,294 @@
+Goblin – d20PFSRD
+Toggle navigation
+OGN
+d20PFSRD
+Home
+Basics & Ability Scores
+Alignment & Description
+Races
+Classes
+Character Advancement
+Class Archetypes
+Core Classes
+Barbarian
+Bard
+Cleric
+Druid
+Fighter
+Monk
+Paladin
+Ranger
+Rogue
+Sorcerer
+Wizard
+Base Classes
+Alternate Classes
+Hybrid Classes
+Unchained Classes
+Prestige Classes
+NPC Classes
+3rd Party Classes
+Monster Classes (3pp)
+Arcane Archetypes (3pp)
+3rd Party Prestige Classes
+3rd Party NPC Classes
+Feats
+Skills
+Traits
+Equipment
+Magic Items
+Magic
+Gamemastering
+Bestiary
+NPCs
+(Bestiary) By Type
+Elder Influences
+Aberrations
+Animals
+Constructs
+Dragons
+Fey
+Humanoids
+Crueltide Elf
+Polar Whaler
+Polar Whaler Simulacrum
+Shampe
+Bahgra
+Elali
+Erebus
+Grachukk Clan Master
+Karn-Tor
+Syaandi
+Ujaheim Rider
+Gurgist
+Mortic
+Savage Green Horde
+Urrk
+Colliatur
+Draaki
+Gitwerc
+Deep One
+Denizen of Leng
+Grandfather of Flowers
+Grove Guardian
+Kraidyl
+Necromancer of Leng
+Okkator
+Parasite Mystic
+Risen Witch
+Tcho-Tcho
+Thrall of Yog-Sothoth
+Troll, Lake
+Zoog
+Zwerc
+Entothrope, Weremantis
+Monkey Goblin
+Munavri
+Rougarou
+Troop
+Adlet
+Android
+Barbegazi (Ice Gnome) (3pp)
+Changeling
+Charau-Ka
+Dark Creeper (3pp)
+Dark Stalker (3pp)
+Drow
+Merfolk
+Boggard
+Bugbear
+Catfolk
+Dark Caller
+Dark Creeper
+Dark Dancer
+Dark Empath
+Dark Slayer
+Dark Stalker
+Derro
+Dhampir
+Duergar
+Firbolg
+Frost Man
+Giants
+Gigas, Abyss
+Gillman
+Gnoll
+Goblin
+Goblin, Fortuneseller
+Goblin, Monkey
+Gray
+Grippli
+Grippli (3pp)
+Hobgoblin
+Huggermugger (3pp)
+Human, Neanderthal
+Jotunblood Hill Giant
+Kasatha
+Kijimuna
+Kitsune
+Kobold
+Kuah-Lij
+Kuru
+Lashunta
+Lava Child
+Lizardfolk
+Locathah
+Lycanthrope
+Merfolk, Deep
+Nagaji
+Nilbog (3pp)
+Ogrekin (Half-Ogre)
+Ogren
+Ogrillon
+Orcs
+Panotti
+Papinijuwari
+Ratfolk
+Reptoid
+Samsaran
+Sasquatch
+Silid
+Skulk
+Skulk (3pp)
+Spriggan
+Stormwarden
+Strix
+Svirfneblin
+Syrinx
+Tabaxi
+Tengu
+Triaxian
+Troblin (3pp)
+Troglodyte
+Trollkin
+Udaeus
+Vanara
+Ved
+Vishkanya
+Wayang
+Wikkawak
+Xulgath
+Magical Beasts
+Monstrous Humanoids
+Plants
+Oozes
+Outsiders
+Templates
+Undead
+Vermin
+(Bestiary) Alphabetical
+(Bestiary) By Challenge Rating
+(Bestiary) By Terrain
+Indexes and Tables
+Rules for Monsters
+Bestiary Alternative Listing
+Modules
+Tools
+Unique Monsters
+Alternative Rule Systems
+d20pfsrd.com Publishing Store
+Home >Bestiary >(Bestiary) By Type >Humanoids >
+Goblin
+Contents
+Examples
+Variants
+Arctic Goblins
+Deep Goblins
+Over-sized Goblins
+Caveling (CR +0)
+Gibberling (CR +1)
+Hellion (CR +1)
+Lasher (CR +1)
+Thorn (CR +1)
+Subpages
+Goblin, Fortuneseller
+Goblin, Monkey
+This creature stands barely three feet tall, its scrawny, humanoid body dwarfed by its wide, ungainly head.
+Goblin CR 1/3
+XP 135
+Goblin warrior 1
+NE Small humanoid (goblinoid)
+ Init +6; Senses darkvision 60 ft.; Perception –1
+DEFENSE
+AC 16, touch 13, flat-footed 14 (+2 armor, +2 Dex, +1 shield, +1 size)
+ hp 6 (1d10+1)
+ Fort +3, Ref +2, Will –1
+OFFENSE
+Speed 30 ft.
+ Melee short sword +2 (1d4/19–20)
+ Ranged short bow +4 (1d4/×3)
+STATISTICS
+Str 11, Dex 15, Con 12, Int 10, Wis 9, Cha 6
+ Base Atk +1; CMB +0; CMD 12
+ Feats Improved Initiative
+ Skills Ride +10, Stealth +10, Swim +4; Racial Modifiers +4 Ride, +4 Stealth
+ Languages Goblin
+ECOLOGY
+Environment temperate forest and plains (usually coastal regions)
+ Organization gang (4–9), warband (10–16 with goblin dog mounts), or tribe (17+ plus 100% noncombatants; 1 sergeant of 3rd level per 20 adults; 1 or 2 lieutenants of 4th or 5th level; 1 leader of 6th–8th level; and 10–40 goblin dogs, wolves, or worgs)
+ Treasure NPC gear (leather armor, light wooden shield, short sword, short bow with 20 arrows, other treasure)
+Goblins prefer to dwell in caves, amid large and dense thickets of thistles and brambles, or in structures built and then abandoned by others. Very few goblins have the drive to build structures of their own. Coastlines are favored, as goblins are quite fond of sifting through junk and flotsam in an unending quest to find treasures among the refuse of more civilized races.
+Goblin hatred runs deep, and few things inspire their wrath more than gnomes (who have long fought against goblins), horses (who frighten goblins tremendously), and regular dogs (whom goblins regard as pale imitations of goblin dogs).
+Goblins are also quite superstitious, and treat magic with a fawning mixture of awe and fear. They have the habit of ascribing magic to the mundane as well, with fire and writing both taking on mystical power in goblin society. Fire is much loved by goblins for its capacity to wreak great destruction and because it doesn’t require size or strength to wield, but written words are hated. Goblins believe that writing steals words out of your head, and as a result of this belief, goblins are universally illiterate.
+Goblins are voracious and can eat their body weight in food daily without growing fat. Goblin lairs always have numerous storerooms and larders. While they prefer human and gnome flesh, a goblin won’t turn down any food—except, perhaps, vegetables.
+Examples
+Goblin cleric 3 / rogue 3
+ Goblin druid 4 (& companion)
+ Goblin fighter 1
+ Goblin fighter 2
+ Goblin ranger 3
+Variants
+Arctic Goblins
+Source PCS:CMR
+An arctic goblin is furrier than its kin, covered with white hair that grants it cold resistance 5.
+Deep Goblins
+Source PCS:CMR
+Those who seek shelter in the endless caverns of the deep underworld grow large bulbous eyes that grant darkvision out to 120 feet and long spidery limbs that give them a +5 racial bonus on Climb checks.
+Over-sized Goblins
+A few goblins attain a much larger size than their kin. No one is exactly sure why they grow to be giants among their kind, but it’s probably due to a combination of luck, diet, and constant access to food. These goblins are monsters among their own kind, not just in height, but also in girth and in strength. If not cast out for eating all of the tribe’s food, over-sized goblins often become the bosses of their tribes, and the most powerful of them become chiefs. Over-sized goblins are Medium size, and grow to 4 to 5 feet tall. They tend to be particularly obese, weighing between 225 and 275 pounds. Instead of the normal racial ability score modifiers for goblins, over-sized goblins gain a +2 bonus to Strength, a +2 bonus to Dexterity, and a –2 penalty to Charisma.
+Caveling (CR +0)
+Source Rocks Fall, Everyone Dies Blog
+These goblins hail from the deeper parts of the world. They gain darkvision 60 feet, light blindness, two claw attacks that deal 1d3 damage, and a climb speed of 20 feet.
+Gibberling (CR +1)
+Source Rocks Fall, Everyone Dies Blog
+These goblins have been touched by aberrant influence. They gain light sensitivity and the gibbering ability (see gibbering mouther) which can be activated as a move action with a range of 30 feet.
+Hellion (CR +1)
+Source Rocks Fall, Everyone Dies Blog
+These goblins are born of dark energies, and are immediately identifiable by the flames that dance in their mouths. They are immune to fire and gain a bite attack that deals 1d4 damage plus 1d6 fire damage.
+Lasher (CR +1)
+Source Rocks Fall, Everyone Dies Blog
+This type of goblin has an unusually long tongue. As a standard action, they can use their tongues to perform disarm or trip attempts against targets within 10 feet with a +2 racial bonus and without provoking attacks of opportunity.
+Thorn (CR +1)
+Source Rocks Fall, Everyone Dies Blog
+Some goblins are born covered in soft thorns that grow rigid as they mature. These goblins gain a slam attack that deals 1d3 damage plus grab. In addition, a creature in a grapple with the thorn takes 1d3 damage at the beginning of the thorn’s turn, and any an attacker who successfully strikes the thorn with an unarmed attack or natural weapon take 1d3 damage.
+Patreon Supporters
+Latest Pathfinder products in the Open Gaming Store
+Ennervain Adventure 9: Lunacy
+Akashic Classes: Volur
+Legendary Monks II
+Boricubos: The Lost Isles Preview PDF (PFRPG)
+Legendary Spiritualists
+Become an Editor!	Support
+ Open Gaming	Subscribe to Our
+ Newsletter	Sell in the
+Open Gaming Store	Report a
+ Bug or Issue
+New Pages
+ Recent Changes
+ Legal Information/Open Game License
+Fan Labs
+ Character Sheets
+ Downloads
+Report a Problem
+Shop the Open Gaming Store!
+
+ Sell at the Open Gaming Store!
+Back my Patreon!
+
+ Get Published
+Follow @OpenGamingStore
+Check out our other SRD sites! Traveller SRD | 5th Edition SRD | Dungeon World SRD | 13th Age SRD | d20HeroSRD | d20PFSRD | GumshoeSRD | FateCoreSRD | Starjammer SRD | OGN Articles | Fudge SRD | Here Be Monsters | d20 Anime SRD | PF2 SRD
+OGN Updates
+This site may earn affiliate commissions from the links on this page.
+OGN SRD v1.10.0 using Bootstrap
+New Pages | Recent Changes | Privacy Policy

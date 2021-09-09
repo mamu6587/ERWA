@@ -2,12 +2,16 @@ package com.erwa.servor.model;
 
 import javax.persistence.Entity;
 
+import com.erwa.servor.debug.Prints;
+import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import org.springframework.core.style.ToStringCreator;
 
 import javax.persistence.*;
 import java.lang.reflect.Field;
 import java.util.*;
+
+//TODO gör om till factory design pattern
 
 @Entity
 @Table(name = "statblocks")
@@ -88,7 +92,6 @@ public class StatBlock {
      */
     public static List<String> getCurrentStatList(){
         Field[] fields = StatBlock.class.getDeclaredFields();
-
         // System.out.println(fields.toString());
 
         List<String> statList;
@@ -98,11 +101,18 @@ public class StatBlock {
             String string = f.toString();
             statList.add(string.substring(string.lastIndexOf(".")+1));
         }
+
+        statList.remove("id");
+        statList.remove("url");
+
         return statList;
     }
 
+    //TODO ändra så att det inte är id som används för requests; just nu får errors för att requesta bara en enda
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "id", nullable = false)
     public UUID getId() {
         return id;
     }
@@ -110,6 +120,7 @@ public class StatBlock {
     public void setId(UUID id) {
         this.id = id;
     }
+
 
     @Column(name = "url", nullable = false)
     public String getUrl() {
@@ -243,6 +254,116 @@ public class StatBlock {
     public String getSpecial() {
         return special;
     }
+    //begin setters; behövs för SPRING BOOT om jag inte vill skaffa ytterligare libs
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setCr(int cr) {
+        this.cr = cr;
+    }
+
+    public void setHp(int hp) {
+        this.hp = hp;
+    }
+
+    public void setAc(int ac) {
+        this.ac = ac;
+    }
+
+    public void setTouchac(int touchac) {
+        this.touchac = touchac;
+    }
+
+    public void setFlatac(int flatac) {
+        this.flatac = flatac;
+    }
+
+    public void setInit(int init) {
+        this.init = init;
+    }
+
+    public void setFort(int fort) {
+        this.fort = fort;
+    }
+
+    public void setReflex(int reflex) {
+        this.reflex = reflex;
+    }
+
+    public void setWill(int will) {
+        this.will = will;
+    }
+
+    public void setStr(int str) {
+        this.str = str;
+    }
+
+    public void setDex(int dex) {
+        this.dex = dex;
+    }
+
+    public void setCon(int con) {
+        this.con = con;
+    }
+
+    public void setIntelligence(int intelligence) {
+        this.intelligence = intelligence;
+    }
+
+    public void setWis(int wis) {
+        this.wis = wis;
+    }
+
+    public void setCha(int cha) {
+        this.cha = cha;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public void setSenses(String senses) {
+        this.senses = senses;
+    }
+
+    public void setDefensive(String defensive) {
+        this.defensive = defensive;
+    }
+
+    public void setSpeeds(String speeds) {
+        this.speeds = speeds;
+    }
+
+    public void setSpellike(String spellike) {
+        this.spellike = spellike;
+    }
+
+    public void setSpells(String spells) {
+        this.spells = spells;
+    }
+
+    public void setFeats(String feats) {
+        this.feats = feats;
+    }
+
+    public void setSkills(String skills) {
+        this.skills = skills;
+    }
+
+    public void setLanguages(String languages) {
+        this.languages = languages;
+    }
+
+    public void setSpecial(String special) {
+        this.special = special;
+    }
+    //end setters
 
     @Override
     public String toString(){

@@ -11,6 +11,8 @@ public class Presentor extends JFrame {
         //tänk på hur texten skall presenteras när man splittar osv
         //stäng-knappar för de olika fälten
 
+        //TODO sätt att testa denna överhuvudtaget
+
         //creating frame
 
         JFrame frame = new JFrame("ERWA GUI/Main window");

@@ -26,7 +26,7 @@ import java.util.Optional;
 
 public class ScraporTests {
 
-    //@Test
+    @Test
     public void getPageTest(){
         String page = Scrapor.getPage("https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/goblin/");
 

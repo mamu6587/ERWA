@@ -31,6 +31,14 @@ public class StatBlockController<list> {
         return this.service.getAllStatBlocks();
     }
 
+    //TODO Skulle makea mycket mer sense att get via name än URL; annars behöver skriva någon slags check/contains
+
+    @GetMapping(path = "/name/{name}")
+    public List<StatBlock> getStatBlockByName(@PathVariable("name") String name){
+        return service.getStatBlockByName(name)
+                .orElse(null);
+    }
+    /*
     @GetMapping(path = "/{url}")
     public StatBlock getStatBlockByURL(@PathVariable("url") String url) {
         return service.getStatBlockByURL(url)
@@ -47,9 +55,9 @@ public class StatBlockController<list> {
     public void updateStatBlockByURL(@PathVariable("url") String url, @RequestBody StatBlock statblock) {
         service.updateStatBlockByURL(url, statblock);
     }
-
+    */
     //Old implementation used ID
-    /*
+
     @GetMapping(path = "{id}")
     public StatBlock getStatBlockById(@PathVariable("id") UUID id) {
         return service.getStatBlockById(id)
@@ -66,7 +74,7 @@ public class StatBlockController<list> {
     public void updateStatBlockById(@PathVariable("id") UUID id, @RequestBody StatBlock statblock) {
         service.updateStatBlockById(id, statblock);
     }
-    */
+
 
 /*
     @GetMapping("/characters")

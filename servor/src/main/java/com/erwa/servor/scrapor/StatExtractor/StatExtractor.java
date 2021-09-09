@@ -22,12 +22,13 @@ public abstract class StatExtractor {
         Matcher matcher;
         while(!statsToFind.isEmpty()){
             //TODO https://regexr.com/ to build regexs; might need individual for different stats or groups thereof
-            String regex = "\n" + statsToFind.get(0) + "\n]";
-            pattern = Pattern.compile(regex);
+            //TODO Ideally tie type of stat looked for to different patterns; string and int,
+            String regex = statsToFind.get(0) + " [0-9]+";
+            pattern = Pattern.compile(regex,Pattern.CASE_INSENSITIVE);
             matcher = pattern.matcher(block);
+            Prints.p("currently looking for " + regex);
 
             if(matcher.find()){
-                Prints.p("currently looking for " + regex);
                 String result = matcher.group();
 
                 Prints.p(result);
@@ -40,6 +41,8 @@ public abstract class StatExtractor {
                 } else {
                     Prints.p("Result not found, " + (trimmedResult != null) + " Or else it was blank" + trimmedResult.isBlank());
                 }
+            } else {
+                Prints.p("Pattern not found");
             }
             statsToFind.remove(0);
         }//TODO regex magic to pick out each stat in list from the block

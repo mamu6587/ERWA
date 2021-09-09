@@ -29,7 +29,7 @@ public class StatExtractorTests {
     @BeforeSuite
     public void readGoblin(){
         try {
-            String file="C:/Users/User/Documents/ERWA/servor/src/test/resources/Goblin.txt";
+            String file="C:/Users/User/Documents/ERWA/servor/src/test/resources/GoblinCleanText.txt";
             Path pathToFile = Paths.get(file);
 
             goblin = Files.readString(pathToFile);
@@ -59,7 +59,7 @@ public class StatExtractorTests {
         //StatExtractor.getStatsFromList("ac",statTupleList);
     }
 
-    //@Test
+    //@Test; currently not in use
     public void trimListTest(){
         //what format trimlist currently works according to;
         String formatAC = "asdkjhlfkjxvc.lkadjdoqwijdoq.AC";
@@ -79,7 +79,12 @@ public class StatExtractorTests {
     @Test
     public void makeTupleListTest(){
         List<String> allStats = StatBlock.getCurrentStatList();
+
+        Prints.p(allStats.toString());
+
         List<StatTuple> tupleList = StatExtractor.makeTupleList(goblin,allStats);
+
+        Prints.p(tupleList.toString());
 
         assert(tupleList.stream().anyMatch(statTuple -> statTuple.get(0).equals("ac") && statTuple.get(1).equals(16)));
         assert(tupleList.stream().anyMatch(statTuple -> statTuple.get(0).equals("init") && statTuple.get(1).equals(16)));
