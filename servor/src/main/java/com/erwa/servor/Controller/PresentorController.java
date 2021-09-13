@@ -8,10 +8,10 @@ import java.util.List;
 
 @RequestMapping("api/gui/statselector")
 @RestController
-public class StatSelectorController {
+public class PresentorController {
 
     //lägger koden här så länge, osäker på om man ska dela upp det i ett data access object eller hur man vill göra
-    /*TODO ha flera controllers? hur dela upp detta exakt?
+    /*TODO ha flera controllers; dela upp efter areas; rimligtvis presentation, database, ev scraping för någon slags web-connection
     tänker mig att ha
 */
     public List<String> pickStats(){

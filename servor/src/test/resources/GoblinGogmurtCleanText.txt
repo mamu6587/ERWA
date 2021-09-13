@@ -1,0 +1,193 @@
+Goblin Druid 4 – d20PFSRD
+Toggle navigation
+OGN
+d20PFSRD
+Home
+Basics & Ability Scores
+Alignment & Description
+Races
+Classes
+Character Advancement
+Class Archetypes
+Core Classes
+Barbarian
+Bard
+Cleric
+Druid
+Fighter
+Monk
+Paladin
+Ranger
+Rogue
+Sorcerer
+Wizard
+Base Classes
+Alternate Classes
+Hybrid Classes
+Unchained Classes
+Prestige Classes
+NPC Classes
+3rd Party Classes
+Monster Classes (3pp)
+Arcane Archetypes (3pp)
+3rd Party Prestige Classes
+3rd Party NPC Classes
+Feats
+Skills
+Traits
+Equipment
+Magic Items
+Magic
+Gamemastering
+Bestiary
+NPCs
+(Bestiary) By Type
+(Bestiary) Alphabetical
+(Bestiary) By Challenge Rating
+(Bestiary) By Terrain
+Indexes and Tables
+Rules for Monsters
+Bestiary Alternative Listing
+Modules
+Tools
+Unique Monsters
+CR 1
+CR 10
+CR 11
+CR 12
+CR 13
+CR 14
+CR 15
+CR 16
+CR 17
+CR 18
+CR 19
+CR 2
+CR 20
+CR 21
+CR 22
+CR 23
+CR 24
+CR 25
+CR 3
+Bugbear Ranger 1
+Dark Talon Hunter (Kobold Rogue 2/Fighter 1)
+Draugr Pirate (Draugr Rogue 1)
+Dread Ghoul Human Expert 4
+Dread Myrmidon (Dread Zombie Kobold Fighter 2)
+Flind Fighter 2
+Ghast Lacedon Rogue 1
+Goblin Assassin (Goblin Rogue 4)
+Goblin Druid 4
+Goblin Fighter 4
+Goblin Firestarter (Goblin Rogue 4)
+Goblin Sharpshooter (Goblin Fighter 4)
+Human Cleric 4
+Human Ogrekin Ranger 3
+Human Variant Skeletal Champion Samurai 2
+Juju Zombie Fighter (Fighter 3)
+Kobold Expert 2/Fighter 2
+Kobold Ranger 3
+Ogrekin Human Fighter 3
+Strix Infiltrator (Strix Investigator 4)
+Vile Stalker (Human Ogrekin Ranger 3)
+Worg Warrior 2
+Zombie Lord (Zombie Lord Monk 3)
+CR 4
+CR 5
+CR 6
+CR 7
+CR 8
+CR 9
+Under CR 1
+Alternative Rule Systems
+d20pfsrd.com Publishing Store
+Home >Bestiary >Unique Monsters >CR 3 >
+Goblin Druid 4
+Goblin Druid 4 CR 3
+XP 800
+ Male goblin druid 4
+ NE Small humanoid (goblinoid)
+ Init +3; Senses darkvision 60 ft.; Perception +2
+DEFENSES
+AC 17, touch 14, flat-footed 14 (+3 armor, +3 Dex, +1 size)
+ hp 33 (4d8+12)
+ Fort +7, Ref +5, Will +7
+OFFENSE
+Speed 30 ft.
+ Melee flame blade +3 touch (1d8+2 fire) or spear +3 (1d6–1/×3)
+ Ranged produce flame +6 (1d6+4 fire) or sling +6 (1d3–1)
+ Special Attacks wild shape 1/day
+ Spells Prepared (CL 4th)
+2nd—animal messenger, flame blade, lesser restoration (already cast)
+ 1st—charm animal (DC 13), cure light wounds (2), entangle (DC 13)
+ 0—flare (DC 12), guidance, mending, stabilize
+STATISTICS
+Str 8, Dex 16, Con 14, Int 8, Wis 15, Cha 12
+ Base Atk +3; CMB +1; CMD 14
+ Feats Brew Potion, Combat Casting
+ Skills Handle Animal +8, Knowledge (nature) +8, Survival +11
+ Languages Common, Druidic, Goblin
+ SQ nature bond (small cat animal companion), nature sense, resist nature’s lure, trackless step, wild empathy +5, woodland stride
+ Combat Gear elixir of speak with animals (2), elixir of tree shape (2), potion of cure light wounds, wand of produce flame (34 charges); Other Gear +1 leather armor, spear, sling, cloak of resistance +1
+Cougar CR –
+N Medium animal
+ Init +5; Senses low-light vision, scent; Perception +5
+DEFENSES
+AC 16, touch 16, flat-footed 13 (+4 Dex, +1 dodge, +1 natural)
+ hp 26 (4d8+8)
+ Fort +6, Ref +8, Will +2
+ Defensive Abilities evasion
+OFFENSE
+Speed 50 ft.
+ Melee bite (1d6+3 plus trip), 2 claws (1d3+3)
+STATISTICS
+Str 16, Dex 19, Con 15, Int 2, Wis 12, Cha 6
+ Base Atk +3; CMB +7; CMD 23 (27 vs. trip)
+ Feats Dodge, Skill Focus (Acrobatics)
+ Skills Acrobatics +12, Climb +8, Perception +5, Stealth +9
+ SQ link, share spells, sprint
+SPECIAL ABILITIES
+Sprint (Ex)
+Once per hour, a small cat can move at 10 times its normal speed (500 feet) when it makes a charge.
+ECOLOGY
+Environment temperate forest and plains (usually coastal regions)
+ Organization gang (4–9), warband (10–16 with goblin dog mounts), or tribe (17+ plus 100% noncombatants; 1 sergeant of 3rd level per 20 adults; 1 or 2 lieutenants of 4th or 5th level; 1 leader of 6th–8th level; and 10–40 goblin dogs, wolves, or worgs)
+ Treasure NPC gear (leather armor, light wooden shield, short sword, short bow with 20 arrows, other treasure)
+Goblins prefer to dwell in caves, amid large and dense thickets of thistles and brambles, or in structures built and then abandoned by others. Very few goblins have the drive to build structures of their own. Coastlines are favored, as goblins are quite fond of sifting through junk and flotsam in an unending quest to find treasures among the refuse of more civilized races.
+Goblin hatred runs deep, and few things inspire their wrath more than gnomes (who have long fought against goblins), horses (who frighten goblins tremendously), and regular dogs (whom goblins regard as pale imitations of goblin dogs).
+Goblins are also quite superstitious, and treat magic with a fawning mixture of awe and fear. They have the habit of ascribing magic to the mundane as well, with fire and writing both taking on mystical power in goblin society. Fire is much loved by goblins for its capacity to wreak great destruction and because it doesn’t require size or strength to wield, but written words are hated. Goblins believe that writing steals words out of your head, and as a result of this belief, goblins are universally illiterate.
+Goblins are voracious and can eat their body weight in food daily without growing fat. Goblin lairs always have numerous storerooms and larders. While they prefer human and gnome flesh, a goblin won’t turn down any food—except, perhaps, vegetables.
+Section 15: Copyright Notice
+Pathfinder 1: Burnt Offerings. Copyright 2007, Paizo Publishing, LLC; Author: James Jacobs.
+Patreon Supporters
+Latest Pathfinder products in the Open Gaming Store
+Akashic Tales: Relics of Atlantis
+Akashic Tales: Horrible Horsemen
+Spheres Apocrypha: Banshee's Gasp
+Legendary Bloodragers
+Ennervain Adventure 9: Lunacy
+Become an Editor!	Support
+ Open Gaming	Subscribe to Our
+ Newsletter	Sell in the
+Open Gaming Store	Report a
+ Bug or Issue
+New Pages
+ Recent Changes
+ Legal Information/Open Game License
+Fan Labs
+ Character Sheets
+ Downloads
+Report a Problem
+Shop the Open Gaming Store!
+
+ Sell at the Open Gaming Store!
+Back my Patreon!
+
+ Get Published
+Follow @OpenGamingStore
+Check out our other SRD sites! Traveller SRD | 5th Edition SRD | Dungeon World SRD | 13th Age SRD | d20HeroSRD | d20PFSRD | GumshoeSRD | FateCoreSRD | Starjammer SRD | OGN Articles | Fudge SRD | Here Be Monsters | d20 Anime SRD | PF2 SRD
+OGN Updates
+This site may earn affiliate commissions from the links on this page.
+OGN SRD v1.10.0 using Bootstrap
+New Pages | Recent Changes | Privacy Policy

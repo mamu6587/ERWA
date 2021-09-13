@@ -17,7 +17,7 @@ public class StatExtractorTests {
     public String[] testStats = {"ac","hp","will","type","special","con","speed"};
     public int[] correctInts = {16,6,-1};
     public String[] correctStrings = {"NE Small humanoid (goblinoid)","none","30 ft."};
-    public String goblin;
+    public String goblin, magicGoblin;
 
     @BeforeSuite
     public void readGoblin(){
@@ -26,6 +26,11 @@ public class StatExtractorTests {
             Path pathToFile = Paths.get(file);
 
             goblin = Files.readString(pathToFile);
+
+            file = "C:/Users/User/Documents/ERWA/servor/src/test/resources/GoblinCleanText.txt";
+            pathToFile = Paths.get(file);
+
+            magicGoblin = Files.readString(pathToFile);
         }
         catch (IOException e){
             e.printStackTrace();
@@ -41,8 +46,6 @@ public class StatExtractorTests {
             List<StatTuple> statList = StatExtractor.makeTupleList(goblin,toFind);
 
             // TODO check that a couple of the values came out correctly
-            assert(statList.);
-
     }
 
     //TODO @Test Currently a private helper function for getStatsUsingList; should be made public or not?
@@ -86,7 +89,9 @@ public class StatExtractorTests {
     @Test
     public void makeStatListFullTest(){// TODO hur göra denna utan att bara kolla getdeclared fields mot sig själv? Måste man ha en hel lista och manuellt uppdatera?
         List <String> list = StatExtractor.makeStatListFull();
-        assert()
+        for (String string:this.testStats) {
+            assert(list.contains(string));
+        }
     }
 
     @Test

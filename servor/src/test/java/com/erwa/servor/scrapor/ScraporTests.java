@@ -11,9 +11,9 @@ public class ScraporTests {
     @Test
     public void getPageTest(){
         String page = Scrapor.getPage("https://www.d20pfsrd.com/bestiary/monster-listings/humanoids/goblin/");
-
-        Prints.p("Page collected: " + page.length());
-        Prints.p("contents: " + page);
+        String page2 = Scrapor.getPage("https://www.d20pfsrd.com/bestiary/unique-monsters/cr-3/gogmurt-tangletooth");
+        Prints.p("Page collected: " + page2.length());
+        Prints.p("contents: " + page2);
         //vet inte riktigt hur jag ska testa denna; kanske inte ens behövs
     }
 

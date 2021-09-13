@@ -11,7 +11,7 @@ public class Presentor extends JFrame {
         //tänk på hur texten skall presenteras när man splittar osv
         //stäng-knappar för de olika fälten
 
-        //TODO sätt att testa denna överhuvudtaget
+        //TODO läs på om att testa GUI:er
 
         //creating frame
 
