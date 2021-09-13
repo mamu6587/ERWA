@@ -6,6 +6,7 @@ import com.erwa.servor.debug.Prints;
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import org.springframework.core.style.ToStringCreator;
+import org.springframework.util.ReflectionUtils;
 
 import javax.persistence.*;
 import java.lang.reflect.Field;
@@ -16,14 +17,15 @@ import java.util.*;
 @Entity
 @Table(name = "statblocks")
 public class StatBlock {
+
     private UUID id;
     private String url, name;
     private int cr,hp, ac, touchac, flatac, init, fort, reflex, will,str,dex,con,intelligence,wis,cha;
     //special; Special qualities och abilities
     private String type,senses,defensive,speeds,spellike,spells,feats,skills,languages,special;
 
-    //TODO SENARE: DC exempelvis praktiskt; svårt dock eftersom varierar med ability och spells
-    //TODO hur representera en stat som inte hittas/finns på blocket; just nu inget null, vill vi ha miljarder "none"/"na" i databasen?
+    //TODO SENARE: DC exempelvis praktiskt; svårt dock eftersom varierar med ability och olika spell lvls
+    //TODO hur representera en stat som inte hittas/finns på blocket; just nu inget null, vill vi ha miljarder 0/"none"/"na" i databasen?
 
     public StatBlock(){}
 
@@ -108,8 +110,7 @@ public class StatBlock {
         return statList;
     }
 
-    //TODO ändra så att det inte är id som används för requests; just nu får errors för att requesta bara en enda
-
+    //TODO just nu får errors för att requesta bara en enda; inte hittat någon bättre lösning än application.properties
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id", nullable = false)
@@ -364,6 +365,20 @@ public class StatBlock {
         this.special = special;
     }
     //end setters
+
+    //TODO om det finns sätt att göra detta utan reflektion...
+    //TODO kanske bara bättre att göra en stattype-list eftersom kommer kolla detta hela tiden. Kanske även borde ligga i scraper eftersom det är där det kommer användas.
+    public Optional<Class<?>> getStatType(String stat) throws NoSuchFieldException{
+        try{
+        Class<?> statType;
+           Field field = StatBlock.class.getField(stat);
+
+            return Optional.of(field.getType());
+        } catch (Exception e){
+            System.out.println("No such field found" + stat);
+        }
+        return Optional.empty();
+    }
 
     @Override
     public String toString(){

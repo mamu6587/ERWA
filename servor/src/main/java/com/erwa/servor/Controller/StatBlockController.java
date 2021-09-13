@@ -31,63 +31,26 @@ public class StatBlockController<list> {
         return this.service.getAllStatBlocks();
     }
 
-    //TODO Skulle makea mycket mer sense att get via name än URL; annars behöver skriva någon slags check/contains
-
-    @GetMapping(path = "/name/{name}")
+    @GetMapping(path = "/byname/{name}")
     public List<StatBlock> getStatBlockByName(@PathVariable("name") String name){
-        return service.getStatBlockByName(name)
-                .orElse(null);
-    }
-    /*
-    @GetMapping(path = "/{url}")
-    public StatBlock getStatBlockByURL(@PathVariable("url") String url) {
-        return service.getStatBlockByURL(url)
+        return service.getStatBlockByNameIgnoreCase(name)
                 .orElse(null);
     }
 
-    @DeleteMapping(path = "/{url}")
-    public void deleteStatBlockByURL(@PathVariable("url") String url) {
-        service.deleteStatBlockByURL(url);
-
-    }
-
-    @PutMapping(path = "/{url}")
-    public void updateStatBlockByURL(@PathVariable("url") String url, @RequestBody StatBlock statblock) {
-        service.updateStatBlockByURL(url, statblock);
-    }
-    */
-    //Old implementation used ID
-
-    @GetMapping(path = "{id}")
+    @GetMapping(path = "/byid/{id}")
     public StatBlock getStatBlockById(@PathVariable("id") UUID id) {
         return service.getStatBlockById(id)
                 .orElse(null);
     }
 
-    @DeleteMapping(path = "{id}")
+    @DeleteMapping(path = "/byid/{id}")
     public void deleteStatBlockById(@PathVariable("id") UUID id) {
         service.deleteStatBlockById(id);
 
     }
 
-    @PutMapping(path = "{id}")
+    @PutMapping(path = "/byid{id}")
     public void updateStatBlockById(@PathVariable("id") UUID id, @RequestBody StatBlock statblock) {
         service.updateStatBlockById(id, statblock);
     }
-
-
-/*
-    @GetMapping("/characters")
-    public List<Character> getAllCharacters(){
-        return CharacterDAO.getAllCharacters();
-    }
-
-    @GetMapping("/characters/{id]")
-    public ResponseEntity<Character> getCharacterById(@PathVariable(value = "id") long id){
-        //här tycker de man ska ha med en resourcenotfoundexception
-        return STUFF;
-    }
-
-    @RequestMapping("/")
-*/
 }

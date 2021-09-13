@@ -5,10 +5,9 @@ import javax.persistence.TupleElement;
 import java.util.List;
 import java.util.Objects;
 
-public class StatTuple implements Tuple {//TODO hur hantera att visa saker är ints och andra är string här och hur fan vet jag...:(
+public class StatTuple implements Tuple {
 final String key;
 int value;
-
 
     public StatTuple(String key, int value){
         this.key = key;

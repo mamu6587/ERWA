@@ -11,8 +11,9 @@ import java.util.List;
 public class StatSelectorController {
 
     //lägger koden här så länge, osäker på om man ska dela upp det i ett data access object eller hur man vill göra
-    //TODO ha flera controllers? hur dela upp detta? eller bara lägga in allt i statblock?
-
+    /*TODO ha flera controllers? hur dela upp detta exakt?
+    tänker mig att ha
+*/
     public List<String> pickStats(){
 
         List<String> pickedStats = new ArrayList<>();

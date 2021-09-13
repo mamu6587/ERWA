@@ -27,4 +27,6 @@ class ServorApplicationTests {
 
     }
 
+    //TODO sätt upp tester för att ladda och spara på själva servern; är här bästa stället?
 }
+

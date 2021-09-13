@@ -1,19 +1,18 @@
-package com.erwa.servor.scrapor.StatExtractor;
+package com.erwa.servor.scrapor.statextractor;
 
 import com.erwa.servor.debug.Prints;
 import com.erwa.servor.model.StatBlock;
 import com.erwa.servor.model.StatTuple;
 
 import javax.persistence.Tuple;
-import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 import java.util.Optional;
 import java.util.regex.*;
 
 public abstract class StatExtractor {
     //extracts stats in list from block and returns list of tuples with {name,value}
+    //TODO kanske värt att kompilera patterns och spara här; se effective java
     public static List<StatTuple> makeTupleList(String block, List<String> statsToFind){
 
         List<StatTuple> statList = new ArrayList<>();
@@ -22,7 +21,7 @@ public abstract class StatExtractor {
         Matcher matcher;
         while(!statsToFind.isEmpty()){
             //TODO https://regexr.com/ to build regexs; might need individual for different stats or groups thereof
-            //TODO Ideally tie type of stat looked for to different patterns; string and int,
+            //TODO Ideally tie type of stat looked for to different patterns; string(maybe with approx length?) and int
             String regex = statsToFind.get(0) + " [0-9]+";
             pattern = Pattern.compile(regex,Pattern.CASE_INSENSITIVE);
             matcher = pattern.matcher(block);

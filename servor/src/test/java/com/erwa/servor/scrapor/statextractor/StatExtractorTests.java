@@ -3,10 +3,6 @@ package com.erwa.servor.scrapor.statextractor;
 import com.erwa.servor.debug.Prints;
 import com.erwa.servor.model.StatBlock;
 import com.erwa.servor.model.StatTuple;
-import com.erwa.servor.scrapor.StatExtractor.StatExtractor;
-import org.assertj.core.util.Streams;
-import org.junit.jupiter.api.BeforeAll;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
@@ -14,10 +10,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class StatExtractorTests {
     // TODO Unit tests for each function; trimList not currently in use
@@ -48,8 +41,7 @@ public class StatExtractorTests {
             List<StatTuple> statList = StatExtractor.makeTupleList(goblin,toFind);
 
             // TODO check that a couple of the values came out correctly
-            assert(true);
-
+            assert(statList.);
 
     }
 
@@ -94,6 +86,7 @@ public class StatExtractorTests {
     @Test
     public void makeStatListFullTest(){// TODO hur göra denna utan att bara kolla getdeclared fields mot sig själv? Måste man ha en hel lista och manuellt uppdatera?
         List <String> list = StatExtractor.makeStatListFull();
+        assert()
     }
 
     @Test

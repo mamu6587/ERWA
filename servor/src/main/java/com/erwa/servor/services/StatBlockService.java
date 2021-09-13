@@ -46,8 +46,6 @@ public class StatBlockService {
     //Behövs denna?
     public void updateStatBlockByURL(String url, StatBlock newStatBlock){DAO.save(newStatBlock);}
 */
-
-    //TODO nästa inkarnation
-    public Optional<List<StatBlock>> getStatBlockByName(String name) { return Optional.of(DAO.findByNameIgnoreCase(name)); }
+    public Optional<List<StatBlock>> getStatBlockByNameIgnoreCase(String name) { return Optional.of(DAO.findByNameIgnoreCase(name)); }
 
 }
